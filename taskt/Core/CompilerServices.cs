@@ -22,6 +22,8 @@ namespace taskt.Core
             CompilerParameters parameters = new CompilerParameters();
             parameters.GenerateExecutable = true;
             parameters.OutputAssembly = Output;
+            // Add an assembly reference.
+            parameters.ReferencedAssemblies.Add("System.dll");
 
             //compile
             CompilerResults results = codeProvider.CompileAssemblyFromSource(parameters, codeInput);

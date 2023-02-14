@@ -205,7 +205,7 @@ namespace taskt.UI.CustomControls
         }
         public UIPictureButton()
         {
-            this.Image = Properties.Resources.logo;
+            this.Image = JAuto.Properties.Resources.logo;
             this.DisplayTextBrush = Color.White;
             this.Size = new Size(48, 48);
             this.DisplayText = "Text";
@@ -425,262 +425,262 @@ namespace taskt.UI
         private static Dictionary<string, string> imageCommandTable = new Dictionary<string, string>()
         {
             // API
-            {"ExecuteDLLCommand", "taskt.Properties.Resources.command_run_code"},
-            {"RESTCommand", "taskt.Properties.Resources.command_run_code"},
-            {"HTTPRequestCommand", "taskt.Properties.Resources.command_web"},
-            {"HTTPQueryResultCommand", "taskt.Properties.Resources.command_search"},
+            {"ExecuteDLLCommand", "JAuto.Properties.Resources.command_run_code"},
+            {"RESTCommand", "JAuto.Properties.Resources.command_run_code"},
+            {"HTTPRequestCommand", "JAuto.Properties.Resources.command_web"},
+            {"HTTPQueryResultCommand", "JAuto.Properties.Resources.command_search"},
 
             // Data
-            {"ConvertListToJSONCommand", "taskt.Properties.Resources.command_function"},
-            {"DateCalculationCommand", "taskt.Properties.Resources.command_function"},
-            {"FormatDataCommand", "taskt.Properties.Resources.command_function"},
-            {"GetListCountCommand", "taskt.Properties.Resources.command_function"},
-            {"GetListItemCommand", "taskt.Properties.Resources.command_function"},
-            {"GetWordLengthCommand", "taskt.Properties.Resources.command_function"},
-            {"GetWordCountCommand", "taskt.Properties.Resources.command_function"},
-            {"LogDataCommand", "taskt.Properties.Resources.command_files"},
-            {"MathCalculationCommand", "taskt.Properties.Resources.command_function"},
-            {"ModifyVariableCommand", "taskt.Properties.Resources.command_function"},
-            {"ParseDatasetRowCommand", "taskt.Properties.Resources.command_function"},
-            {"ParseJSONArrayCommand", "taskt.Properties.Resources.command_parse"},
-            {"ParseJsonCommand", "taskt.Properties.Resources.command_parse"},
-            {"ParseJsonModelCommand", "taskt.Properties.Resources.command_parse"},
-            {"PDFTextExtractionCommand", "taskt.Properties.Resources.command_function"},
-            {"RegExExtractorCommand", "taskt.Properties.Resources.command_function"},
-            {"StringCheckStringCommand", "taskt.Properties.Resources.command_string"},
-            {"StringReplaceCommand", "taskt.Properties.Resources.command_string"},
-            {"StringSplitCommand", "taskt.Properties.Resources.command_string"},
-            {"StringSubstringCommand", "taskt.Properties.Resources.command_string"},
-            {"TextExtractorCommand", "taskt.Properties.Resources.command_function"},
+            {"ConvertListToJSONCommand", "JAuto.Properties.Resources.command_function"},
+            {"DateCalculationCommand", "JAuto.Properties.Resources.command_function"},
+            {"FormatDataCommand", "JAuto.Properties.Resources.command_function"},
+            {"GetListCountCommand", "JAuto.Properties.Resources.command_function"},
+            {"GetListItemCommand", "JAuto.Properties.Resources.command_function"},
+            {"GetWordLengthCommand", "JAuto.Properties.Resources.command_function"},
+            {"GetWordCountCommand", "JAuto.Properties.Resources.command_function"},
+            {"LogDataCommand", "JAuto.Properties.Resources.command_files"},
+            {"MathCalculationCommand", "JAuto.Properties.Resources.command_function"},
+            {"ModifyVariableCommand", "JAuto.Properties.Resources.command_function"},
+            {"ParseDatasetRowCommand", "JAuto.Properties.Resources.command_function"},
+            {"ParseJSONArrayCommand", "JAuto.Properties.Resources.command_parse"},
+            {"ParseJsonCommand", "JAuto.Properties.Resources.command_parse"},
+            {"ParseJsonModelCommand", "JAuto.Properties.Resources.command_parse"},
+            {"PDFTextExtractionCommand", "JAuto.Properties.Resources.command_function"},
+            {"RegExExtractorCommand", "JAuto.Properties.Resources.command_function"},
+            {"StringCheckStringCommand", "JAuto.Properties.Resources.command_string"},
+            {"StringReplaceCommand", "JAuto.Properties.Resources.command_string"},
+            {"StringSplitCommand", "JAuto.Properties.Resources.command_string"},
+            {"StringSubstringCommand", "JAuto.Properties.Resources.command_string"},
+            {"TextExtractorCommand", "JAuto.Properties.Resources.command_function"},
 
             // Database
-            {"DatabaseDefineConnectionCommand", "taskt.Properties.Resources.command_database"},
-            {"DatabaseExecuteQueryCommand", "taskt.Properties.Resources.command_database"},
+            {"DatabaseDefineConnectionCommand", "JAuto.Properties.Resources.command_database"},
+            {"DatabaseExecuteQueryCommand", "JAuto.Properties.Resources.command_database"},
 
             // DataTable
-            {"LoadTaskCommand", "taskt.Properties.Resources.command_start_process"},
-            {"UnloadTaskCommand", "taskt.Properties.Resources.command_stop_process"},
-            {"ExcelAddWorksheetCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"AddDataRowCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"CreateDataTableCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"FilterDataTableCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"GetDataRowCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"GetDataRowCountCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"GetDataRowValueCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"RemoveDataRowCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"WriteDataRowValueCommand", "taskt.Properties.Resources.command_spreadsheet"},
+            {"LoadTaskCommand", "JAuto.Properties.Resources.command_start_process"},
+            {"UnloadTaskCommand", "JAuto.Properties.Resources.command_stop_process"},
+            {"ExcelAddWorksheetCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"AddDataRowCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"CreateDataTableCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"FilterDataTableCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"GetDataRowCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"GetDataRowCountCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"GetDataRowValueCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"RemoveDataRowCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"WriteDataRowValueCommand", "JAuto.Properties.Resources.command_spreadsheet"},
 
             // Dictionary
-            {"AddDictionaryCommand", "taskt.Properties.Resources.command_dictionary"},
-            {"CreateDictionaryCommand", "taskt.Properties.Resources.command_dictionary"},
-            {"GetDictionaryValueCommand", "taskt.Properties.Resources.command_dictionary"},
-            {"LoadDictionaryCommand", "taskt.Properties.Resources.command_dictionary"},
+            {"AddDictionaryCommand", "JAuto.Properties.Resources.command_dictionary"},
+            {"CreateDictionaryCommand", "JAuto.Properties.Resources.command_dictionary"},
+            {"GetDictionaryValueCommand", "JAuto.Properties.Resources.command_dictionary"},
+            {"LoadDictionaryCommand", "JAuto.Properties.Resources.command_dictionary"},
 
             // Engine
-            {"ErrorHandlingCommand", "taskt.Properties.Resources.command_error"},
-            {"GetDataCommand", "taskt.Properties.Resources.command_server"},  // get bot data
-            {"PauseCommand", "taskt.Properties.Resources.command_pause"},
-            {"SetEngineDelayCommand", "taskt.Properties.Resources.command_pause"},
-            {"ShowEngineContextCommand", "taskt.Properties.Resources.command_window"},
-            {"SetEnginePreferenceCommand", "taskt.Properties.Resources.command_window"},
-            {"StopwatchCommand", "taskt.Properties.Resources.command_stopwatch"},
-            {"UploadDataCommand", "taskt.Properties.Resources.command_server"},   // upload bot store
+            {"ErrorHandlingCommand", "JAuto.Properties.Resources.command_error"},
+            {"GetDataCommand", "JAuto.Properties.Resources.command_server"},  // get bot data
+            {"PauseCommand", "JAuto.Properties.Resources.command_pause"},
+            {"SetEngineDelayCommand", "JAuto.Properties.Resources.command_pause"},
+            {"ShowEngineContextCommand", "JAuto.Properties.Resources.command_window"},
+            {"SetEnginePreferenceCommand", "JAuto.Properties.Resources.command_window"},
+            {"StopwatchCommand", "JAuto.Properties.Resources.command_stopwatch"},
+            {"UploadDataCommand", "JAuto.Properties.Resources.command_server"},   // upload bot store
 
             // Error
-            {"CatchExceptionCommand", "taskt.Properties.Resources.command_try"},
-            {"EndTryCommand", "taskt.Properties.Resources.command_try"},
-            {"FinallyCommand", "taskt.Properties.Resources.command_try"},
-            {"ThrowExceptionCommand", "taskt.Properties.Resources.command_try"},
-            {"TryCommand", "taskt.Properties.Resources.command_try"},
+            {"CatchExceptionCommand", "JAuto.Properties.Resources.command_try"},
+            {"EndTryCommand", "JAuto.Properties.Resources.command_try"},
+            {"FinallyCommand", "JAuto.Properties.Resources.command_try"},
+            {"ThrowExceptionCommand", "JAuto.Properties.Resources.command_try"},
+            {"TryCommand", "JAuto.Properties.Resources.command_try"},
 
             // Excel
-            {"ExcelActivateSheetCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelAddWorkbookCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelAppendCellCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelAppendRowCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelCheckExcelInstanceExistsCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelCloseApplicationCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelCreateDatasetCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelCreateApplicationCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelDeleteCellCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelDeleteRowCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelDeleteWorksheetCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelGetCellCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelGetCellRCCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelGetLastRowCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelGetRangeCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelGetRangeCommandAsDT", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelGoToCellCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelOpenWorkbookCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelRenameWorksheetCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelRunMacroCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelSaveCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelSaveAsCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelSetCellCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelSetCellRCCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelSplitRangeByColumnCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelWriteRangeCommand", "taskt.Properties.Resources.command_spreadsheet"},
-            {"ExcelWriteRowCommand", "taskt.Properties.Resources.command_spreadsheet"},
+            {"ExcelActivateSheetCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelAddWorkbookCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelAppendCellCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelAppendRowCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelCheckExcelInstanceExistsCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelCloseApplicationCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelCreateDatasetCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelCreateApplicationCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelDeleteCellCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelDeleteRowCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelDeleteWorksheetCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelGetCellCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelGetCellRCCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelGetLastRowCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelGetRangeCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelGetRangeCommandAsDT", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelGoToCellCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelOpenWorkbookCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelRenameWorksheetCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelRunMacroCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelSaveCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelSaveAsCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelSetCellCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelSetCellRCCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelSplitRangeByColumnCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelWriteRangeCommand", "JAuto.Properties.Resources.command_spreadsheet"},
+            {"ExcelWriteRowCommand", "JAuto.Properties.Resources.command_spreadsheet"},
 
             // File
-            {"CheckFileExistsCommand", "taskt.Properties.Resources.command_files"},
-            {"DeleteFileCommand", "taskt.Properties.Resources.command_files"},
-            {"ExtractFileCommand", "taskt.Properties.Resources.command_files"},
-            {"GetFilesCommand", "taskt.Properties.Resources.command_files"},
-            {"MoveFileCommand", "taskt.Properties.Resources.command_files"},
-            {"RenameFileCommand", "taskt.Properties.Resources.command_files"},
-            {"WaitForFileToExistCommand", "taskt.Properties.Resources.command_files"},
+            {"CheckFileExistsCommand", "JAuto.Properties.Resources.command_files"},
+            {"DeleteFileCommand", "JAuto.Properties.Resources.command_files"},
+            {"ExtractFileCommand", "JAuto.Properties.Resources.command_files"},
+            {"GetFilesCommand", "JAuto.Properties.Resources.command_files"},
+            {"MoveFileCommand", "JAuto.Properties.Resources.command_files"},
+            {"RenameFileCommand", "JAuto.Properties.Resources.command_files"},
+            {"WaitForFileToExistCommand", "JAuto.Properties.Resources.command_files"},
 
             // Folder
-            {"CheckFolderExistsCommand", "taskt.Properties.Resources.command_files"},
-            {"CreateFolderCommand", "taskt.Properties.Resources.command_files"},
-            {"DeleteFolderCommand", "taskt.Properties.Resources.command_files"},
-            {"GetFoldersCommand", "taskt.Properties.Resources.command_files"},
-            {"MoveFolderCommand", "taskt.Properties.Resources.command_files"},
-            {"RenameFolderCommand", "taskt.Properties.Resources.command_files"},
+            {"CheckFolderExistsCommand", "JAuto.Properties.Resources.command_files"},
+            {"CreateFolderCommand", "JAuto.Properties.Resources.command_files"},
+            {"DeleteFolderCommand", "JAuto.Properties.Resources.command_files"},
+            {"GetFoldersCommand", "JAuto.Properties.Resources.command_files"},
+            {"MoveFolderCommand", "JAuto.Properties.Resources.command_files"},
+            {"RenameFolderCommand", "JAuto.Properties.Resources.command_files"},
 
             // IE
-            {"IEBrowserCloseCommand", "taskt.Properties.Resources.command_window_close"},
-            {"IEBrowserCreateCommand", "taskt.Properties.Resources.command_web"},
-            {"IEBrowserElementCommand", "taskt.Properties.Resources.command_web"},
-            {"WebBrowserFindBrowserCommand", "taskt.Properties.Resources.command_web"},
-            {"IEBrowserNavigateCommand", "taskt.Properties.Resources.command_web"},
+            {"IEBrowserCloseCommand", "JAuto.Properties.Resources.command_window_close"},
+            {"IEBrowserCreateCommand", "JAuto.Properties.Resources.command_web"},
+            {"IEBrowserElementCommand", "JAuto.Properties.Resources.command_web"},
+            {"WebBrowserFindBrowserCommand", "JAuto.Properties.Resources.command_web"},
+            {"IEBrowserNavigateCommand", "JAuto.Properties.Resources.command_web"},
 
             // If
-            {"BeginIfCommand", "taskt.Properties.Resources.command_begin_if"},
-            {"BeginMultiIfCommand", "taskt.Properties.Resources.command_begin_multi_if"},
-            {"ElseCommand", "taskt.Properties.Resources.command_else"},
-            {"EndIfCommand", "taskt.Properties.Resources.command_end_if"},
+            {"BeginIfCommand", "JAuto.Properties.Resources.command_begin_if"},
+            {"BeginMultiIfCommand", "JAuto.Properties.Resources.command_begin_multi_if"},
+            {"ElseCommand", "JAuto.Properties.Resources.command_else"},
+            {"EndIfCommand", "JAuto.Properties.Resources.command_end_if"},
 
             // Image
-            {"ImageRecognitionCommand", "taskt.Properties.Resources.command_camera"},
-            {"OCRCommand", "taskt.Properties.Resources.command_camera"},
-            {"ScreenshotCommand", "taskt.Properties.Resources.command_camera"},
+            {"ImageRecognitionCommand", "JAuto.Properties.Resources.command_camera"},
+            {"OCRCommand", "JAuto.Properties.Resources.command_camera"},
+            {"ScreenshotCommand", "JAuto.Properties.Resources.command_camera"},
 
             // Input
-            {"FileDialogCommand", "taskt.Properties.Resources.command_input"},
-            {"FolderDialogCommand", "taskt.Properties.Resources.command_input"},
-            {"HTMLInputCommand", "taskt.Properties.Resources.command_input"},
-            {"UserInputCommand", "taskt.Properties.Resources.command_input"}, // prompt
-            {"SendAdvancedKeyStrokesCommand", "taskt.Properties.Resources.command_input"},
-            {"SendHotkeyCommand", "taskt.Properties.Resources.command_input"},
-            {"SendKeysCommand", "taskt.Properties.Resources.command_input"},
-            {"SendMouseMoveCommand", "taskt.Properties.Resources.command_input"},
-            {"SendMouseClickCommand", "taskt.Properties.Resources.command_input"},
-            {"UIAutomationCommand", "taskt.Properties.Resources.command_input"},
+            {"FileDialogCommand", "JAuto.Properties.Resources.command_input"},
+            {"FolderDialogCommand", "JAuto.Properties.Resources.command_input"},
+            {"HTMLInputCommand", "JAuto.Properties.Resources.command_input"},
+            {"UserInputCommand", "JAuto.Properties.Resources.command_input"}, // prompt
+            {"SendAdvancedKeyStrokesCommand", "JAuto.Properties.Resources.command_input"},
+            {"SendHotkeyCommand", "JAuto.Properties.Resources.command_input"},
+            {"SendKeysCommand", "JAuto.Properties.Resources.command_input"},
+            {"SendMouseMoveCommand", "JAuto.Properties.Resources.command_input"},
+            {"SendMouseClickCommand", "JAuto.Properties.Resources.command_input"},
+            {"UIAutomationCommand", "JAuto.Properties.Resources.command_input"},
 
             // Loop
-            {"BeginLoopCommand", "taskt.Properties.Resources.command_startloop"},
-            {"BeginMultiLoopCommand", "taskt.Properties.Resources.command_startloop"},
-            {"EndLoopCommand", "taskt.Properties.Resources.command_endloop"},
-            {"ExitLoopCommand", "taskt.Properties.Resources.command_exitloop"},
-            {"BeginContinousLoopCommand", "taskt.Properties.Resources.command_startloop"},
-            {"BeginListLoopCommand", "taskt.Properties.Resources.command_startloop"},
-            {"BeginNumberOfTimesLoopCommand", "taskt.Properties.Resources.command_startloop"},
-            {"NextLoopCommand", "taskt.Properties.Resources.command_nextloop"},
+            {"BeginLoopCommand", "JAuto.Properties.Resources.command_startloop"},
+            {"BeginMultiLoopCommand", "JAuto.Properties.Resources.command_startloop"},
+            {"EndLoopCommand", "JAuto.Properties.Resources.command_endloop"},
+            {"ExitLoopCommand", "JAuto.Properties.Resources.command_exitloop"},
+            {"BeginContinousLoopCommand", "JAuto.Properties.Resources.command_startloop"},
+            {"BeginListLoopCommand", "JAuto.Properties.Resources.command_startloop"},
+            {"BeginNumberOfTimesLoopCommand", "JAuto.Properties.Resources.command_startloop"},
+            {"NextLoopCommand", "JAuto.Properties.Resources.command_nextloop"},
 
             // Misc
-            {"CommentCommand", "taskt.Properties.Resources.command_comment"},
-            {"EncryptionCommand", "taskt.Properties.Resources.command_input"},
-            {"ClipboardGetTextCommand", "taskt.Properties.Resources.command_files"},
-            {"PingCommand", "taskt.Properties.Resources.command_web"},
-            {"SMTPSendEmailCommand", "taskt.Properties.Resources.command_smtp"},
-            {"SequenceCommand", "taskt.Properties.Resources.command_sequence"},
-            {"ClipboardSetTextCommand", "taskt.Properties.Resources.command_files"},
-            {"MessageBoxCommand", "taskt.Properties.Resources.command_comment"},
+            {"CommentCommand", "JAuto.Properties.Resources.command_comment"},
+            {"EncryptionCommand", "JAuto.Properties.Resources.command_input"},
+            {"ClipboardGetTextCommand", "JAuto.Properties.Resources.command_files"},
+            {"PingCommand", "JAuto.Properties.Resources.command_web"},
+            {"SMTPSendEmailCommand", "JAuto.Properties.Resources.command_smtp"},
+            {"SequenceCommand", "JAuto.Properties.Resources.command_sequence"},
+            {"ClipboardSetTextCommand", "JAuto.Properties.Resources.command_files"},
+            {"MessageBoxCommand", "JAuto.Properties.Resources.command_comment"},
 
             // NLG
-            {"NLGCreateInstanceCommand", "taskt.Properties.Resources.command_nlg"},
-            {"NLGGeneratePhraseCommand", "taskt.Properties.Resources.command_nlg"},
-            {"NLGSetParameterCommand", "taskt.Properties.Resources.command_nlg"},
+            {"NLGCreateInstanceCommand", "JAuto.Properties.Resources.command_nlg"},
+            {"NLGGeneratePhraseCommand", "JAuto.Properties.Resources.command_nlg"},
+            {"NLGSetParameterCommand", "JAuto.Properties.Resources.command_nlg"},
 
             // Outlook
-            {"OutlookDeleteEmailsCommand", "taskt.Properties.Resources.command_smtp"},
-            {"OutlookForwardEmailsCommand", "taskt.Properties.Resources.command_smtp"},
-            {"OutlookGetEmailsCommand", "taskt.Properties.Resources.command_smtp"},
-            {"OutlookMoveEmailsCommand", "taskt.Properties.Resources.command_smtp"},
-            {"OutlookReplyToEmailsCommand", "taskt.Properties.Resources.command_smtp"},
-            {"OutlookEmailCommand", "taskt.Properties.Resources.command_smtp"},
+            {"OutlookDeleteEmailsCommand", "JAuto.Properties.Resources.command_smtp"},
+            {"OutlookForwardEmailsCommand", "JAuto.Properties.Resources.command_smtp"},
+            {"OutlookGetEmailsCommand", "JAuto.Properties.Resources.command_smtp"},
+            {"OutlookMoveEmailsCommand", "JAuto.Properties.Resources.command_smtp"},
+            {"OutlookReplyToEmailsCommand", "JAuto.Properties.Resources.command_smtp"},
+            {"OutlookEmailCommand", "JAuto.Properties.Resources.command_smtp"},
 
             // Program
-            {"RunCustomCodeCommand", "taskt.Properties.Resources.command_script"},
-            {"RunScriptCommand", "taskt.Properties.Resources.command_script"},
-            {"StartProcessCommand", "taskt.Properties.Resources.command_start_process"},
-            {"StopProcessCommand", "taskt.Properties.Resources.command_stop_process"},
+            {"RunCustomCodeCommand", "JAuto.Properties.Resources.command_script"},
+            {"RunScriptCommand", "JAuto.Properties.Resources.command_script"},
+            {"StartProcessCommand", "JAuto.Properties.Resources.command_start_process"},
+            {"StopProcessCommand", "JAuto.Properties.Resources.command_stop_process"},
 
             // Regex
-            {"GetRegexMatchesCommand", "taskt.Properties.Resources.command_function"},
+            {"GetRegexMatchesCommand", "JAuto.Properties.Resources.command_function"},
 
             // Remote
-            {"RemoteAPICommand", "taskt.Properties.Resources.command_remote"},
-            {"RemoteTaskCommand", "taskt.Properties.Resources.command_remote"},
+            {"RemoteAPICommand", "JAuto.Properties.Resources.command_remote"},
+            {"RemoteTaskCommand", "JAuto.Properties.Resources.command_remote"},
 
             // System
-            {"EnvironmentVariableCommand", "taskt.Properties.Resources.command_system"},
-            {"RemoteDesktopCommand", "taskt.Properties.Resources.command_system"},
-            {"OSVariableCommand", "taskt.Properties.Resources.command_system"},
-            {"SystemActionCommand", "taskt.Properties.Resources.command_script"},
+            {"EnvironmentVariableCommand", "JAuto.Properties.Resources.command_system"},
+            {"RemoteDesktopCommand", "JAuto.Properties.Resources.command_system"},
+            {"OSVariableCommand", "JAuto.Properties.Resources.command_system"},
+            {"SystemActionCommand", "JAuto.Properties.Resources.command_script"},
 
             // Task
-            {"RunTaskCommand", "taskt.Properties.Resources.command_start_process"},
-            {"StopTaskCommand", "taskt.Properties.Resources.command_stop_process"},
+            {"RunTaskCommand", "JAuto.Properties.Resources.command_start_process"},
+            {"StopTaskCommand", "JAuto.Properties.Resources.command_stop_process"},
 
             // Text
-            {"ReadTextFileCommand", "taskt.Properties.Resources.command_files"},
-            {"WriteTextFileCommand", "taskt.Properties.Resources.command_files"},
+            {"ReadTextFileCommand", "JAuto.Properties.Resources.command_files"},
+            {"WriteTextFileCommand", "JAuto.Properties.Resources.command_files"},
 
             // Variable
-            {"AddToVariableCommand", "taskt.Properties.Resources.command_function"},
-            {"AddVariableCommand", "taskt.Properties.Resources.command_function"},
-            {"VariableCommand", "taskt.Properties.Resources.command_function"},
-            {"SetVariableIndexCommand", "taskt.Properties.Resources.command_function"},
+            {"AddToVariableCommand", "JAuto.Properties.Resources.command_function"},
+            {"AddVariableCommand", "JAuto.Properties.Resources.command_function"},
+            {"VariableCommand", "JAuto.Properties.Resources.command_function"},
+            {"SetVariableIndexCommand", "JAuto.Properties.Resources.command_function"},
 
             // Web
-            {"SeleniumBrowserCheckBrowserInstanceExistsCommand", "taskt.Properties.Resources.command_web"},
-            {"SeleniumBrowserCloseCommand", "taskt.Properties.Resources.command_window_close"},
-            {"SeleniumBrowserCreateCommand", "taskt.Properties.Resources.command_web"},
-            {"SeleniumBrowserElementActionCommand", "taskt.Properties.Resources.command_web"},
-            {"SeleniumBrowserExecuteScriptCommand", "taskt.Properties.Resources.command_script"},
-            {"SeleniumBrowserInfoCommand", "taskt.Properties.Resources.command_web"},
-            {"SeleniumBrowserNavigateBackCommand", "taskt.Properties.Resources.command_web"},
-            {"SeleniumBrowserNavigateForwardCommand", "taskt.Properties.Resources.command_web"},
-            {"SeleniumBrowserNavigateURLCommand", "taskt.Properties.Resources.command_web"},
-            {"SeleniumBrowserRefreshCommand", "taskt.Properties.Resources.command_web"},
-            {"SeleniumBrowserSwitchFrameCommand", "taskt.Properties.Resources.command_window"},
-            {"SeleniumBrowserSwitchWindowCommand", "taskt.Properties.Resources.command_window"},
-            {"SeleniumBrowserTakeScreenshotCommand", "taskt.Properties.Resources.command_web"},
+            {"SeleniumBrowserCheckBrowserInstanceExistsCommand", "JAuto.Properties.Resources.command_web"},
+            {"SeleniumBrowserCloseCommand", "JAuto.Properties.Resources.command_window_close"},
+            {"SeleniumBrowserCreateCommand", "JAuto.Properties.Resources.command_web"},
+            {"SeleniumBrowserElementActionCommand", "JAuto.Properties.Resources.command_web"},
+            {"SeleniumBrowserExecuteScriptCommand", "JAuto.Properties.Resources.command_script"},
+            {"SeleniumBrowserInfoCommand", "JAuto.Properties.Resources.command_web"},
+            {"SeleniumBrowserNavigateBackCommand", "JAuto.Properties.Resources.command_web"},
+            {"SeleniumBrowserNavigateForwardCommand", "JAuto.Properties.Resources.command_web"},
+            {"SeleniumBrowserNavigateURLCommand", "JAuto.Properties.Resources.command_web"},
+            {"SeleniumBrowserRefreshCommand", "JAuto.Properties.Resources.command_web"},
+            {"SeleniumBrowserSwitchFrameCommand", "JAuto.Properties.Resources.command_window"},
+            {"SeleniumBrowserSwitchWindowCommand", "JAuto.Properties.Resources.command_window"},
+            {"SeleniumBrowserTakeScreenshotCommand", "JAuto.Properties.Resources.command_web"},
 
             // Window
-            {"ActivateWindowCommand", "taskt.Properties.Resources.command_window"},
-            {"CheckWindowNameExistsCommand", "taskt.Properties.Resources.command_window"},
-            {"CloseWindowCommand", "taskt.Properties.Resources.command_window_close"},
-            {"GetWindowNamesCommand", "taskt.Properties.Resources.command_window"},
-            {"MoveWindowCommand", "taskt.Properties.Resources.command_window"},
-            {"ResizeWindowCommand", "taskt.Properties.Resources.command_window"},
-            {"SetWindowStateCommand", "taskt.Properties.Resources.command_window"},
-            {"WaitForWindowCommand", "taskt.Properties.Resources.command_window"},
+            {"ActivateWindowCommand", "JAuto.Properties.Resources.command_window"},
+            {"CheckWindowNameExistsCommand", "JAuto.Properties.Resources.command_window"},
+            {"CloseWindowCommand", "JAuto.Properties.Resources.command_window_close"},
+            {"GetWindowNamesCommand", "JAuto.Properties.Resources.command_window"},
+            {"MoveWindowCommand", "JAuto.Properties.Resources.command_window"},
+            {"ResizeWindowCommand", "JAuto.Properties.Resources.command_window"},
+            {"SetWindowStateCommand", "JAuto.Properties.Resources.command_window"},
+            {"WaitForWindowCommand", "JAuto.Properties.Resources.command_window"},
 
             // Word
-            {"WordAddDocumentCommand", "taskt.Properties.Resources.command_files"},
-            {"WordAppendDataTableCommand", "taskt.Properties.Resources.command_files"},
-            {"WordAppendImageCommand", "taskt.Properties.Resources.command_files"},
-            {"WordAppendTextCommand", "taskt.Properties.Resources.command_files"},
-            {"WordCheckWordInstanceExistsCommand", "taskt.Properties.Resources.command_files"},
-            {"WordCloseApplicationCommand", "taskt.Properties.Resources.command_files"},
-            {"WordCreateApplicationCommand", "taskt.Properties.Resources.command_files"},
-            {"WordExportToPDFCommand", "taskt.Properties.Resources.command_files"},
-            {"WordOpenDocumentCommand", "taskt.Properties.Resources.command_files"},
-            {"WordReadDocumentCommand", "taskt.Properties.Resources.command_files"},
-            {"WordReplaceTextCommand", "taskt.Properties.Resources.command_files"},
-            {"WordSaveCommand", "taskt.Properties.Resources.command_files"},
-            {"WordSaveAsCommand", "taskt.Properties.Resources.command_files"},
+            {"WordAddDocumentCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordAppendDataTableCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordAppendImageCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordAppendTextCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordCheckWordInstanceExistsCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordCloseApplicationCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordCreateApplicationCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordExportToPDFCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordOpenDocumentCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordReadDocumentCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordReplaceTextCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordSaveCommand", "JAuto.Properties.Resources.command_files"},
+            {"WordSaveAsCommand", "JAuto.Properties.Resources.command_files"},
 
             //// NOTHING ///
-            {"BeginExcelDatasetLoopCommand", "taskt.Properties.Resources.command_startloop"},
-            {"ThickAppClickItemCommand", "taskt.Properties.Resources.command_input"},
-            {"ThickAppGetTextCommand", "taskt.Properties.Resources.command_search"},
-            {"Setcommand_windowtateCommand", "taskt.Properties.Resources.command_window"},
-            {"_NotFoundCommand", "taskt.Properties.Resources.command_files"},
+            {"BeginExcelDatasetLoopCommand", "JAuto.Properties.Resources.command_startloop"},
+            {"ThickAppClickItemCommand", "JAuto.Properties.Resources.command_input"},
+            {"ThickAppGetTextCommand", "JAuto.Properties.Resources.command_search"},
+            {"Setcommand_windowtateCommand", "JAuto.Properties.Resources.command_window"},
+            {"_NotFoundCommand", "JAuto.Properties.Resources.command_files"},
         };
 
         public static Dictionary<string, Image> UIImageDictionary()
@@ -690,247 +690,247 @@ namespace taskt.UI
             Dictionary<string, Image> uiImages = new Dictionary<string, Image>();
 
             // API
-            uiImages.Add("ExecuteDLLCommand", taskt.Properties.Resources.command_run_code);
-            uiImages.Add("RESTCommand", taskt.Properties.Resources.command_run_code);
-            uiImages.Add("HTTPRequestCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("HTTPQueryResultCommand", taskt.Properties.Resources.command_search);
+            uiImages.Add("ExecuteDLLCommand", JAuto.Properties.Resources.command_run_code);
+            uiImages.Add("RESTCommand", JAuto.Properties.Resources.command_run_code);
+            uiImages.Add("HTTPRequestCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("HTTPQueryResultCommand", JAuto.Properties.Resources.command_search);
 
             // Data
-            uiImages.Add("DateCalculationCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("FormatDataCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("GetListCountCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("GetListItemCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("GetWordLengthCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("GetWordCountCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("LogDataCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("MathCalculationCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("ModifyVariableCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("ParseDatasetRowCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("ParseJsonArrayCommand", taskt.Properties.Resources.command_parse);
-            uiImages.Add("ParseJsonCommand", taskt.Properties.Resources.command_parse);
-            uiImages.Add("ParseJsonModelCommand", taskt.Properties.Resources.command_parse);
-            uiImages.Add("PDFTextExtractionCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("RegExExtractorCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("StringReplaceCommand", taskt.Properties.Resources.command_string);
-            uiImages.Add("StringSplitCommand", taskt.Properties.Resources.command_string);
-            uiImages.Add("StringSubstringCommand", taskt.Properties.Resources.command_string);
-            uiImages.Add("TextExtractorCommand", taskt.Properties.Resources.command_function);
+            uiImages.Add("DateCalculationCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("FormatDataCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("GetListCountCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("GetListItemCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("GetWordLengthCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("GetWordCountCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("LogDataCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("MathCalculationCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("ModifyVariableCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("ParseDatasetRowCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("ParseJsonArrayCommand", JAuto.Properties.Resources.command_parse);
+            uiImages.Add("ParseJsonCommand", JAuto.Properties.Resources.command_parse);
+            uiImages.Add("ParseJsonModelCommand", JAuto.Properties.Resources.command_parse);
+            uiImages.Add("PDFTextExtractionCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("RegExExtractorCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("StringReplaceCommand", JAuto.Properties.Resources.command_string);
+            uiImages.Add("StringSplitCommand", JAuto.Properties.Resources.command_string);
+            uiImages.Add("StringSubstringCommand", JAuto.Properties.Resources.command_string);
+            uiImages.Add("TextExtractorCommand", JAuto.Properties.Resources.command_function);
 
             // Database
-            uiImages.Add("DatabaseDefineConnectionCommand", taskt.Properties.Resources.command_database);
-            uiImages.Add("DatabaseExecuteQueryCommand", taskt.Properties.Resources.command_database);
+            uiImages.Add("DatabaseDefineConnectionCommand", JAuto.Properties.Resources.command_database);
+            uiImages.Add("DatabaseExecuteQueryCommand", JAuto.Properties.Resources.command_database);
 
             // DataTable
-            uiImages.Add("LoadTaskCommand", taskt.Properties.Resources.command_start_process);
-            uiImages.Add("UnloadTaskCommand", taskt.Properties.Resources.command_stop_process);
-            uiImages.Add("ExcelAddWorksheetCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("AddDataRowCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("CreateDataTableCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("FilterDataTableCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("GetDataRowCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("GetDataRowCountCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("GetDataRowValueCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("RemoveDataRowCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("WriteDataRowValueCommand", taskt.Properties.Resources.command_spreadsheet);
+            uiImages.Add("LoadTaskCommand", JAuto.Properties.Resources.command_start_process);
+            uiImages.Add("UnloadTaskCommand", JAuto.Properties.Resources.command_stop_process);
+            uiImages.Add("ExcelAddWorksheetCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("AddDataRowCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("CreateDataTableCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("FilterDataTableCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("GetDataRowCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("GetDataRowCountCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("GetDataRowValueCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("RemoveDataRowCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("WriteDataRowValueCommand", JAuto.Properties.Resources.command_spreadsheet);
 
             // Dictionary
-            uiImages.Add("AddDictionaryCommand", taskt.Properties.Resources.command_dictionary);
-            uiImages.Add("CreateDictionaryCommand", taskt.Properties.Resources.command_dictionary);
-            uiImages.Add("GetDictionaryValueCommand", taskt.Properties.Resources.command_dictionary);
-            uiImages.Add("LoadDictionaryCommand", taskt.Properties.Resources.command_dictionary);
+            uiImages.Add("AddDictionaryCommand", JAuto.Properties.Resources.command_dictionary);
+            uiImages.Add("CreateDictionaryCommand", JAuto.Properties.Resources.command_dictionary);
+            uiImages.Add("GetDictionaryValueCommand", JAuto.Properties.Resources.command_dictionary);
+            uiImages.Add("LoadDictionaryCommand", JAuto.Properties.Resources.command_dictionary);
 
             // Engine
-            uiImages.Add("ErrorHandlingCommand", taskt.Properties.Resources.command_error);
-            uiImages.Add("GetDataCommand", taskt.Properties.Resources.command_server);  // get bot data
-            uiImages.Add("PauseCommand", taskt.Properties.Resources.command_pause);
-            uiImages.Add("SetEngineDelayCommand", taskt.Properties.Resources.command_pause);
-            uiImages.Add("ShowEngineContextCommand", taskt.Properties.Resources.command_window);
-            uiImages.Add("SetEnginePreferenceCommand", taskt.Properties.Resources.command_window);
-            uiImages.Add("StopwatchCommand", taskt.Properties.Resources.command_stopwatch);
-            uiImages.Add("UploadDataCommand", taskt.Properties.Resources.command_server);   // upload bot store
+            uiImages.Add("ErrorHandlingCommand", JAuto.Properties.Resources.command_error);
+            uiImages.Add("GetDataCommand", JAuto.Properties.Resources.command_server);  // get bot data
+            uiImages.Add("PauseCommand", JAuto.Properties.Resources.command_pause);
+            uiImages.Add("SetEngineDelayCommand", JAuto.Properties.Resources.command_pause);
+            uiImages.Add("ShowEngineContextCommand", JAuto.Properties.Resources.command_window);
+            uiImages.Add("SetEnginePreferenceCommand", JAuto.Properties.Resources.command_window);
+            uiImages.Add("StopwatchCommand", JAuto.Properties.Resources.command_stopwatch);
+            uiImages.Add("UploadDataCommand", JAuto.Properties.Resources.command_server);   // upload bot store
 
             // Error
-            uiImages.Add("CatchExceptionCommand", taskt.Properties.Resources.command_try);
-            uiImages.Add("EndTryCommand", taskt.Properties.Resources.command_try);
-            uiImages.Add("FinallyCommand", taskt.Properties.Resources.command_try);
-            uiImages.Add("ThrowExceptionCommand", taskt.Properties.Resources.command_try);
-            uiImages.Add("TryCommand", taskt.Properties.Resources.command_try);
+            uiImages.Add("CatchExceptionCommand", JAuto.Properties.Resources.command_try);
+            uiImages.Add("EndTryCommand", JAuto.Properties.Resources.command_try);
+            uiImages.Add("FinallyCommand", JAuto.Properties.Resources.command_try);
+            uiImages.Add("ThrowExceptionCommand", JAuto.Properties.Resources.command_try);
+            uiImages.Add("TryCommand", JAuto.Properties.Resources.command_try);
 
             // Excel
-            uiImages.Add("ExcelActivateSheetCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelAddWorkbookCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelAppendCellCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelAppendRowCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelCloseApplicationCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelCreateDatasetCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelCreateApplicationCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelDeleteCellCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelDeleteRowCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelGetCellCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelGetLastRowCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelGetRangeCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelGetRangeCommandAsDT", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelGoToCellCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelOpenWorkbookCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelRunMacroCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelSaveCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelSaveAsCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelSetCellCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelSplitRangeByColumnCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelWriteRangeCommand", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Add("ExcelWriteRowCommand", taskt.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelActivateSheetCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelAddWorkbookCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelAppendCellCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelAppendRowCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelCloseApplicationCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelCreateDatasetCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelCreateApplicationCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelDeleteCellCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelDeleteRowCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelGetCellCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelGetLastRowCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelGetRangeCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelGetRangeCommandAsDT", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelGoToCellCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelOpenWorkbookCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelRunMacroCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelSaveCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelSaveAsCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelSetCellCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelSplitRangeByColumnCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelWriteRangeCommand", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Add("ExcelWriteRowCommand", JAuto.Properties.Resources.command_spreadsheet);
 
             // File
-            uiImages.Add("DeleteFileCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("ExtractFileCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("GetFilesCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("MoveFileCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("RenameFileCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WaitForFileToExistCommand", taskt.Properties.Resources.command_files);
+            uiImages.Add("DeleteFileCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("ExtractFileCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("GetFilesCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("MoveFileCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("RenameFileCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WaitForFileToExistCommand", JAuto.Properties.Resources.command_files);
 
             // Folder
-            uiImages.Add("CreateFolderCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("DeleteFolderCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("GetFoldersCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("MoveFolderCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("RenameFolderCommand", taskt.Properties.Resources.command_files);
+            uiImages.Add("CreateFolderCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("DeleteFolderCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("GetFoldersCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("MoveFolderCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("RenameFolderCommand", JAuto.Properties.Resources.command_files);
 
             // IE
-            uiImages.Add("IEBrowserCloseCommand", taskt.Properties.Resources.command_window_close);
-            uiImages.Add("IEBrowserCreateCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("IEBrowserElementCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("WebBrowserFindBrowserCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("IEBrowserNavigateCommand", taskt.Properties.Resources.command_web);
+            uiImages.Add("IEBrowserCloseCommand", JAuto.Properties.Resources.command_window_close);
+            uiImages.Add("IEBrowserCreateCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("IEBrowserElementCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("WebBrowserFindBrowserCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("IEBrowserNavigateCommand", JAuto.Properties.Resources.command_web);
 
             // If
-            uiImages.Add("BeginIfCommand", taskt.Properties.Resources.command_begin_if);
-            uiImages.Add("BeginMultiIfCommand", taskt.Properties.Resources.command_begin_multi_if);
-            uiImages.Add("ElseCommand", taskt.Properties.Resources.command_else);
-            uiImages.Add("EndIfCommand", taskt.Properties.Resources.command_end_if);
+            uiImages.Add("BeginIfCommand", JAuto.Properties.Resources.command_begin_if);
+            uiImages.Add("BeginMultiIfCommand", JAuto.Properties.Resources.command_begin_multi_if);
+            uiImages.Add("ElseCommand", JAuto.Properties.Resources.command_else);
+            uiImages.Add("EndIfCommand", JAuto.Properties.Resources.command_end_if);
 
             // Image
-            uiImages.Add("ImageRecognitionCommand", taskt.Properties.Resources.command_camera);
-            uiImages.Add("OCRCommand", taskt.Properties.Resources.command_camera);
-            uiImages.Add("ScreenshotCommand", taskt.Properties.Resources.command_camera);
+            uiImages.Add("ImageRecognitionCommand", JAuto.Properties.Resources.command_camera);
+            uiImages.Add("OCRCommand", JAuto.Properties.Resources.command_camera);
+            uiImages.Add("ScreenshotCommand", JAuto.Properties.Resources.command_camera);
 
             // Input
-            uiImages.Add("HTMLInputCommand", taskt.Properties.Resources.command_input);
-            uiImages.Add("UserInputCommand", taskt.Properties.Resources.command_input); // prompt
-            uiImages.Add("SendAdvancedKeyStrokesCommand", taskt.Properties.Resources.command_input);
-            uiImages.Add("SendHotkeyCommand", taskt.Properties.Resources.command_input);
-            uiImages.Add("SendKeysCommand", taskt.Properties.Resources.command_input);
-            uiImages.Add("SendMouseMoveCommand", taskt.Properties.Resources.command_input);
-            uiImages.Add("SendMouseClickCommand", taskt.Properties.Resources.command_input);
-            uiImages.Add("UIAutomationCommand", taskt.Properties.Resources.command_input);
+            uiImages.Add("HTMLInputCommand", JAuto.Properties.Resources.command_input);
+            uiImages.Add("UserInputCommand", JAuto.Properties.Resources.command_input); // prompt
+            uiImages.Add("SendAdvancedKeyStrokesCommand", JAuto.Properties.Resources.command_input);
+            uiImages.Add("SendHotkeyCommand", JAuto.Properties.Resources.command_input);
+            uiImages.Add("SendKeysCommand", JAuto.Properties.Resources.command_input);
+            uiImages.Add("SendMouseMoveCommand", JAuto.Properties.Resources.command_input);
+            uiImages.Add("SendMouseClickCommand", JAuto.Properties.Resources.command_input);
+            uiImages.Add("UIAutomationCommand", JAuto.Properties.Resources.command_input);
 
             // Loop
-            uiImages.Add("BeginLoopCommand", taskt.Properties.Resources.command_startloop);
-            uiImages.Add("BeginMultiLoopCommand", taskt.Properties.Resources.command_startloop);
-            uiImages.Add("EndLoopCommand", taskt.Properties.Resources.command_endloop);
-            uiImages.Add("ExitLoopCommand", taskt.Properties.Resources.command_exitloop);
-            uiImages.Add("BeginContinousLoopCommand", taskt.Properties.Resources.command_startloop);
-            uiImages.Add("BeginListLoopCommand", taskt.Properties.Resources.command_startloop);
-            uiImages.Add("BeginNumberOfTimesLoopCommand", taskt.Properties.Resources.command_startloop);
-            uiImages.Add("NextLoopCommand", taskt.Properties.Resources.command_nextloop);
+            uiImages.Add("BeginLoopCommand", JAuto.Properties.Resources.command_startloop);
+            uiImages.Add("BeginMultiLoopCommand", JAuto.Properties.Resources.command_startloop);
+            uiImages.Add("EndLoopCommand", JAuto.Properties.Resources.command_endloop);
+            uiImages.Add("ExitLoopCommand", JAuto.Properties.Resources.command_exitloop);
+            uiImages.Add("BeginContinousLoopCommand", JAuto.Properties.Resources.command_startloop);
+            uiImages.Add("BeginListLoopCommand", JAuto.Properties.Resources.command_startloop);
+            uiImages.Add("BeginNumberOfTimesLoopCommand", JAuto.Properties.Resources.command_startloop);
+            uiImages.Add("NextLoopCommand", JAuto.Properties.Resources.command_nextloop);
 
             // Misc
-            uiImages.Add("CommentCommand", taskt.Properties.Resources.command_comment);
-            uiImages.Add("EncryptionCommand", taskt.Properties.Resources.command_input);
-            uiImages.Add("ClipboardGetTextCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("PingCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("SMTPSendEmailCommand", taskt.Properties.Resources.command_smtp);
-            uiImages.Add("SequenceCommand", taskt.Properties.Resources.command_sequence);
-            uiImages.Add("ClipboardSetTextCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("MessageBoxCommand", taskt.Properties.Resources.command_comment);
+            uiImages.Add("CommentCommand", JAuto.Properties.Resources.command_comment);
+            uiImages.Add("EncryptionCommand", JAuto.Properties.Resources.command_input);
+            uiImages.Add("ClipboardGetTextCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("PingCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("SMTPSendEmailCommand", JAuto.Properties.Resources.command_smtp);
+            uiImages.Add("SequenceCommand", JAuto.Properties.Resources.command_sequence);
+            uiImages.Add("ClipboardSetTextCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("MessageBoxCommand", JAuto.Properties.Resources.command_comment);
 
             // NLG
-            uiImages.Add("NLGCreateInstanceCommand", taskt.Properties.Resources.command_nlg);
-            uiImages.Add("NLGGeneratePhraseCommand", taskt.Properties.Resources.command_nlg);
-            uiImages.Add("NLGSetParameterCommand", taskt.Properties.Resources.command_nlg);
+            uiImages.Add("NLGCreateInstanceCommand", JAuto.Properties.Resources.command_nlg);
+            uiImages.Add("NLGGeneratePhraseCommand", JAuto.Properties.Resources.command_nlg);
+            uiImages.Add("NLGSetParameterCommand", JAuto.Properties.Resources.command_nlg);
 
             // Outlook
-            uiImages.Add("OutlookDeleteEmailsCommand", taskt.Properties.Resources.command_smtp);
-            uiImages.Add("OutlookForwardEmailsCommand", taskt.Properties.Resources.command_smtp);
-            uiImages.Add("OutlookGetEmailsCommand", taskt.Properties.Resources.command_smtp);
-            uiImages.Add("OutlookMoveEmailsCommand", taskt.Properties.Resources.command_smtp);
-            uiImages.Add("OutlookReplyToEmailsCommand", taskt.Properties.Resources.command_smtp);
-            uiImages.Add("OutlookEmailCommand", taskt.Properties.Resources.command_smtp);
+            uiImages.Add("OutlookDeleteEmailsCommand", JAuto.Properties.Resources.command_smtp);
+            uiImages.Add("OutlookForwardEmailsCommand", JAuto.Properties.Resources.command_smtp);
+            uiImages.Add("OutlookGetEmailsCommand", JAuto.Properties.Resources.command_smtp);
+            uiImages.Add("OutlookMoveEmailsCommand", JAuto.Properties.Resources.command_smtp);
+            uiImages.Add("OutlookReplyToEmailsCommand", JAuto.Properties.Resources.command_smtp);
+            uiImages.Add("OutlookEmailCommand", JAuto.Properties.Resources.command_smtp);
 
             // Program
-            uiImages.Add("RunCustomCodeCommand", taskt.Properties.Resources.command_script);
-            uiImages.Add("RunScriptCommand", taskt.Properties.Resources.command_script);
-            uiImages.Add("StartProcessCommand", taskt.Properties.Resources.command_start_process);
-            uiImages.Add("StopProcessCommand", taskt.Properties.Resources.command_stop_process);
+            uiImages.Add("RunCustomCodeCommand", JAuto.Properties.Resources.command_script);
+            uiImages.Add("RunScriptCommand", JAuto.Properties.Resources.command_script);
+            uiImages.Add("StartProcessCommand", JAuto.Properties.Resources.command_start_process);
+            uiImages.Add("StopProcessCommand", JAuto.Properties.Resources.command_stop_process);
 
             // Regex
-            uiImages.Add("GetRegexMatchesCommand", taskt.Properties.Resources.command_function);
+            uiImages.Add("GetRegexMatchesCommand", JAuto.Properties.Resources.command_function);
 
             // Remote
-            uiImages.Add("RemoteAPICommand", taskt.Properties.Resources.command_remote);
-            uiImages.Add("RemoteTaskCommand", taskt.Properties.Resources.command_remote);
+            uiImages.Add("RemoteAPICommand", JAuto.Properties.Resources.command_remote);
+            uiImages.Add("RemoteTaskCommand", JAuto.Properties.Resources.command_remote);
 
             // System
-            uiImages.Add("EnvironmentVariableCommand", taskt.Properties.Resources.command_system);
-            uiImages.Add("RemoteDesktopCommand", taskt.Properties.Resources.command_system);
-            uiImages.Add("OSVariableCommand", taskt.Properties.Resources.command_system);
-            uiImages.Add("SystemActionCommand", taskt.Properties.Resources.command_script);
+            uiImages.Add("EnvironmentVariableCommand", JAuto.Properties.Resources.command_system);
+            uiImages.Add("RemoteDesktopCommand", JAuto.Properties.Resources.command_system);
+            uiImages.Add("OSVariableCommand", JAuto.Properties.Resources.command_system);
+            uiImages.Add("SystemActionCommand", JAuto.Properties.Resources.command_script);
 
             // Task
-            uiImages.Add("RunTaskCommand", taskt.Properties.Resources.command_start_process);
-            uiImages.Add("StopTaskCommand", taskt.Properties.Resources.command_stop_process);
+            uiImages.Add("RunTaskCommand", JAuto.Properties.Resources.command_start_process);
+            uiImages.Add("StopTaskCommand", JAuto.Properties.Resources.command_stop_process);
 
             // Text
-            uiImages.Add("ReadTextFileCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WriteTextFileCommand", taskt.Properties.Resources.command_files);
+            uiImages.Add("ReadTextFileCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WriteTextFileCommand", JAuto.Properties.Resources.command_files);
 
             // Variable
-            uiImages.Add("AddToVariableCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("AddVariableCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("VariableCommand", taskt.Properties.Resources.command_function);
-            uiImages.Add("SetVariableIndexCommand", taskt.Properties.Resources.command_function);
+            uiImages.Add("AddToVariableCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("AddVariableCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("VariableCommand", JAuto.Properties.Resources.command_function);
+            uiImages.Add("SetVariableIndexCommand", JAuto.Properties.Resources.command_function);
 
             // Web
-            uiImages.Add("SeleniumBrowserCloseCommand", taskt.Properties.Resources.command_window_close);
-            uiImages.Add("SeleniumBrowserCreateCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("SeleniumBrowserElementActionCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("SeleniumBrowserExecuteScriptCommand", taskt.Properties.Resources.command_script);
-            uiImages.Add("SeleniumBrowserInfoCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("SeleniumBrowserNavigateBackCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("SeleniumBrowserNavigateForwardCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("SeleniumBrowserNavigateURLCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("SeleniumBrowserRefreshCommand", taskt.Properties.Resources.command_web);
-            uiImages.Add("SeleniumBrowserSwitchFrameCommand", taskt.Properties.Resources.command_window);
-            uiImages.Add("SeleniumBrowserSwitchWindowCommand", taskt.Properties.Resources.command_window);
-            uiImages.Add("SeleniumBrowserTakeScreenshotCommand", taskt.Properties.Resources.command_web);
+            uiImages.Add("SeleniumBrowserCloseCommand", JAuto.Properties.Resources.command_window_close);
+            uiImages.Add("SeleniumBrowserCreateCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("SeleniumBrowserElementActionCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("SeleniumBrowserExecuteScriptCommand", JAuto.Properties.Resources.command_script);
+            uiImages.Add("SeleniumBrowserInfoCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("SeleniumBrowserNavigateBackCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("SeleniumBrowserNavigateForwardCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("SeleniumBrowserNavigateURLCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("SeleniumBrowserRefreshCommand", JAuto.Properties.Resources.command_web);
+            uiImages.Add("SeleniumBrowserSwitchFrameCommand", JAuto.Properties.Resources.command_window);
+            uiImages.Add("SeleniumBrowserSwitchWindowCommand", JAuto.Properties.Resources.command_window);
+            uiImages.Add("SeleniumBrowserTakeScreenshotCommand", JAuto.Properties.Resources.command_web);
 
             // Window
-            uiImages.Add("ActivateWindowCommand", taskt.Properties.Resources.command_window);
-            uiImages.Add("CloseWindowCommand", taskt.Properties.Resources.command_window_close);
-            uiImages.Add("MoveWindowCommand", taskt.Properties.Resources.command_window);
-            uiImages.Add("ResizeWindowCommand", taskt.Properties.Resources.command_window);
-            uiImages.Add("SetWindowStateCommand", taskt.Properties.Resources.command_window);
-            uiImages.Add("WaitForWindowCommand", taskt.Properties.Resources.command_window);
+            uiImages.Add("ActivateWindowCommand", JAuto.Properties.Resources.command_window);
+            uiImages.Add("CloseWindowCommand", JAuto.Properties.Resources.command_window_close);
+            uiImages.Add("MoveWindowCommand", JAuto.Properties.Resources.command_window);
+            uiImages.Add("ResizeWindowCommand", JAuto.Properties.Resources.command_window);
+            uiImages.Add("SetWindowStateCommand", JAuto.Properties.Resources.command_window);
+            uiImages.Add("WaitForWindowCommand", JAuto.Properties.Resources.command_window);
 
             // Word
-            uiImages.Add("WordAddDocumentCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordAppendDataTableCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordAppendImageCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordAppendTextCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordCloseApplicationCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordCreateApplicationCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordExportToPDFCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordOpenDocumentCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordReadDocumentCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordReplaceTextCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordSaveCommand", taskt.Properties.Resources.command_files);
-            uiImages.Add("WordSaveAsCommand", taskt.Properties.Resources.command_files);
+            uiImages.Add("WordAddDocumentCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordAppendDataTableCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordAppendImageCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordAppendTextCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordCloseApplicationCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordCreateApplicationCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordExportToPDFCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordOpenDocumentCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordReadDocumentCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordReplaceTextCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordSaveCommand", JAuto.Properties.Resources.command_files);
+            uiImages.Add("WordSaveAsCommand", JAuto.Properties.Resources.command_files);
 
             //// NOTHING ///
-            uiImages.Add("BeginExcelDatasetLoopCommand", taskt.Properties.Resources.command_startloop);
-            uiImages.Add("ThickAppClickItemCommand", taskt.Properties.Resources.command_input);
-            uiImages.Add("ThickAppGetTextCommand", taskt.Properties.Resources.command_search);
-            uiImages.Add("Setcommand_windowtateCommand", taskt.Properties.Resources.command_window);
-            uiImages.Add("_NotFoundCommand", taskt.Properties.Resources.command_files);
+            uiImages.Add("BeginExcelDatasetLoopCommand", JAuto.Properties.Resources.command_startloop);
+            uiImages.Add("ThickAppClickItemCommand", JAuto.Properties.Resources.command_input);
+            uiImages.Add("ThickAppGetTextCommand", JAuto.Properties.Resources.command_search);
+            uiImages.Add("Setcommand_windowtateCommand", JAuto.Properties.Resources.command_window);
+            uiImages.Add("_NotFoundCommand", JAuto.Properties.Resources.command_files);
 
             // release
             //GC.Collect();
@@ -971,42 +971,42 @@ namespace taskt.UI
 
             //    uiImages.Images.Add(icon.Key, icon.Value);
             //}
-            uiImages.Images.Add("taskt.Properties.Resources.command_begin_if", taskt.Properties.Resources.command_begin_if);
-            uiImages.Images.Add("taskt.Properties.Resources.command_begin_multi_if", taskt.Properties.Resources.command_begin_multi_if);
-            uiImages.Images.Add("taskt.Properties.Resources.command_camera", taskt.Properties.Resources.command_camera);
-            uiImages.Images.Add("taskt.Properties.Resources.command_comment", taskt.Properties.Resources.command_comment);
-            uiImages.Images.Add("taskt.Properties.Resources.command_database", taskt.Properties.Resources.command_database);
-            uiImages.Images.Add("taskt.Properties.Resources.command_dictionary", taskt.Properties.Resources.command_dictionary);
-            uiImages.Images.Add("taskt.Properties.Resources.command_else", taskt.Properties.Resources.command_else);
-            uiImages.Images.Add("taskt.Properties.Resources.command_endloop", taskt.Properties.Resources.command_endloop);
-            uiImages.Images.Add("taskt.Properties.Resources.command_end_if", taskt.Properties.Resources.command_end_if);
-            uiImages.Images.Add("taskt.Properties.Resources.command_error", taskt.Properties.Resources.command_error);
-            uiImages.Images.Add("taskt.Properties.Resources.command_exitloop", taskt.Properties.Resources.command_exitloop);
-            uiImages.Images.Add("taskt.Properties.Resources.command_files", taskt.Properties.Resources.command_files);
-            uiImages.Images.Add("taskt.Properties.Resources.command_function", taskt.Properties.Resources.command_function);
-            uiImages.Images.Add("taskt.Properties.Resources.command_input", taskt.Properties.Resources.command_input);
-            uiImages.Images.Add("taskt.Properties.Resources.command_nextloop", taskt.Properties.Resources.command_nextloop);
-            uiImages.Images.Add("taskt.Properties.Resources.command_nlg", taskt.Properties.Resources.command_nlg);
-            uiImages.Images.Add("taskt.Properties.Resources.command_parse", taskt.Properties.Resources.command_parse);
-            uiImages.Images.Add("taskt.Properties.Resources.command_pause", taskt.Properties.Resources.command_pause);
-            uiImages.Images.Add("taskt.Properties.Resources.command_remote", taskt.Properties.Resources.command_remote);
-            uiImages.Images.Add("taskt.Properties.Resources.command_run_code", taskt.Properties.Resources.command_run_code);
-            uiImages.Images.Add("taskt.Properties.Resources.command_script", taskt.Properties.Resources.command_script);
-            uiImages.Images.Add("taskt.Properties.Resources.command_search", taskt.Properties.Resources.command_search);
-            uiImages.Images.Add("taskt.Properties.Resources.command_sequence", taskt.Properties.Resources.command_sequence);
-            uiImages.Images.Add("taskt.Properties.Resources.command_server", taskt.Properties.Resources.command_server);
-            uiImages.Images.Add("taskt.Properties.Resources.command_smtp", taskt.Properties.Resources.command_smtp);
-            uiImages.Images.Add("taskt.Properties.Resources.command_spreadsheet", taskt.Properties.Resources.command_spreadsheet);
-            uiImages.Images.Add("taskt.Properties.Resources.command_startloop", taskt.Properties.Resources.command_startloop);
-            uiImages.Images.Add("taskt.Properties.Resources.command_start_process", taskt.Properties.Resources.command_start_process);
-            uiImages.Images.Add("taskt.Properties.Resources.command_stopwatch", taskt.Properties.Resources.command_stopwatch);
-            uiImages.Images.Add("taskt.Properties.Resources.command_stop_process", taskt.Properties.Resources.command_stop_process);
-            uiImages.Images.Add("taskt.Properties.Resources.command_string", taskt.Properties.Resources.command_string);
-            uiImages.Images.Add("taskt.Properties.Resources.command_system", taskt.Properties.Resources.command_system);
-            uiImages.Images.Add("taskt.Properties.Resources.command_try", taskt.Properties.Resources.command_try);
-            uiImages.Images.Add("taskt.Properties.Resources.command_web", taskt.Properties.Resources.command_web);
-            uiImages.Images.Add("taskt.Properties.Resources.command_window", taskt.Properties.Resources.command_window);
-            uiImages.Images.Add("taskt.Properties.Resources.command_window_close", taskt.Properties.Resources.command_window_close);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_begin_if", JAuto.Properties.Resources.command_begin_if);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_begin_multi_if", JAuto.Properties.Resources.command_begin_multi_if);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_camera", JAuto.Properties.Resources.command_camera);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_comment", JAuto.Properties.Resources.command_comment);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_database", JAuto.Properties.Resources.command_database);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_dictionary", JAuto.Properties.Resources.command_dictionary);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_else", JAuto.Properties.Resources.command_else);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_endloop", JAuto.Properties.Resources.command_endloop);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_end_if", JAuto.Properties.Resources.command_end_if);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_error", JAuto.Properties.Resources.command_error);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_exitloop", JAuto.Properties.Resources.command_exitloop);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_files", JAuto.Properties.Resources.command_files);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_function", JAuto.Properties.Resources.command_function);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_input", JAuto.Properties.Resources.command_input);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_nextloop", JAuto.Properties.Resources.command_nextloop);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_nlg", JAuto.Properties.Resources.command_nlg);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_parse", JAuto.Properties.Resources.command_parse);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_pause", JAuto.Properties.Resources.command_pause);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_remote", JAuto.Properties.Resources.command_remote);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_run_code", JAuto.Properties.Resources.command_run_code);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_script", JAuto.Properties.Resources.command_script);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_search", JAuto.Properties.Resources.command_search);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_sequence", JAuto.Properties.Resources.command_sequence);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_server", JAuto.Properties.Resources.command_server);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_smtp", JAuto.Properties.Resources.command_smtp);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_spreadsheet", JAuto.Properties.Resources.command_spreadsheet);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_startloop", JAuto.Properties.Resources.command_startloop);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_start_process", JAuto.Properties.Resources.command_start_process);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_stopwatch", JAuto.Properties.Resources.command_stopwatch);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_stop_process", JAuto.Properties.Resources.command_stop_process);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_string", JAuto.Properties.Resources.command_string);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_system", JAuto.Properties.Resources.command_system);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_try", JAuto.Properties.Resources.command_try);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_web", JAuto.Properties.Resources.command_web);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_window", JAuto.Properties.Resources.command_window);
+            uiImages.Images.Add("JAuto.Properties.Resources.command_window_close", JAuto.Properties.Resources.command_window_close);
 
             // release
             //imageIcons.Clear();
@@ -1040,7 +1040,7 @@ namespace taskt.UI
             }
             catch (Exception)
             {
-                return uiImages.Images.IndexOfKey("taskt.Properties.Resources.command_files");
+                return uiImages.Images.IndexOfKey("JAuto.Properties.Resources.command_files");
             }
         }
 
@@ -1075,7 +1075,7 @@ namespace taskt.UI
             }
             catch (Exception)
             {
-                retImage = uiImages.Images[uiImages.Images.IndexOfKey("taskt.Properties.Resources.command_files")];
+                retImage = uiImages.Images[uiImages.Images.IndexOfKey("JAuto.Properties.Resources.command_files")];
             }
 
             return retImage;

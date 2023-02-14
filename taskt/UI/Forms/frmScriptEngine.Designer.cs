@@ -50,7 +50,7 @@
             this.lstSteppingCommands.ForeColor = System.Drawing.Color.SteelBlue;
             this.lstSteppingCommands.FormattingEnabled = true;
             this.lstSteppingCommands.ItemHeight = 17;
-            this.lstSteppingCommands.Location = new System.Drawing.Point(7, 52);
+            this.lstSteppingCommands.Location = new System.Drawing.Point(7, 56);
             this.lstSteppingCommands.Name = "lstSteppingCommands";
             this.lstSteppingCommands.Size = new System.Drawing.Size(675, 123);
             this.lstSteppingCommands.TabIndex = 1;
@@ -66,7 +66,7 @@
             this.lblCloseTimer.AutoSize = true;
             this.lblCloseTimer.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCloseTimer.ForeColor = System.Drawing.Color.White;
-            this.lblCloseTimer.Location = new System.Drawing.Point(12, 162);
+            this.lblCloseTimer.Location = new System.Drawing.Point(12, 176);
             this.lblCloseTimer.Name = "lblCloseTimer";
             this.lblCloseTimer.Size = new System.Drawing.Size(0, 17);
             this.lblCloseTimer.TabIndex = 2;
@@ -79,9 +79,9 @@
             this.lblMainLogo.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblMainLogo.Location = new System.Drawing.Point(1, 5);
             this.lblMainLogo.Name = "lblMainLogo";
-            this.lblMainLogo.Size = new System.Drawing.Size(253, 45);
+            this.lblMainLogo.Size = new System.Drawing.Size(265, 45);
             this.lblMainLogo.TabIndex = 0;
-            this.lblMainLogo.Text = "taskt is executing";
+            this.lblMainLogo.Text = "JAuto is executing";
             // 
             // lblKillProcNote
             // 
@@ -89,7 +89,7 @@
             this.lblKillProcNote.BackColor = System.Drawing.Color.Transparent;
             this.lblKillProcNote.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKillProcNote.ForeColor = System.Drawing.Color.White;
-            this.lblKillProcNote.Location = new System.Drawing.Point(4, 181);
+            this.lblKillProcNote.Location = new System.Drawing.Point(4, 196);
             this.lblKillProcNote.Name = "lblKillProcNote";
             this.lblKillProcNote.Size = new System.Drawing.Size(333, 20);
             this.lblKillProcNote.TabIndex = 3;
@@ -101,7 +101,7 @@
             this.lblAction.BackColor = System.Drawing.Color.Transparent;
             this.lblAction.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAction.ForeColor = System.Drawing.Color.White;
-            this.lblAction.Location = new System.Drawing.Point(5, 202);
+            this.lblAction.Location = new System.Drawing.Point(5, 219);
             this.lblAction.Name = "lblAction";
             this.lblAction.Size = new System.Drawing.Size(65, 20);
             this.lblAction.TabIndex = 4;
@@ -115,11 +115,11 @@
             this.uiBtnCancel.DisplayText = "Cancel";
             this.uiBtnCancel.DisplayTextBrush = System.Drawing.Color.AliceBlue;
             this.uiBtnCancel.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.uiBtnCancel.Image = global::taskt.Properties.Resources.various_cancel_button;
+            this.uiBtnCancel.Image = global::JAuto.Properties.Resources.various_cancel_button;
             this.uiBtnCancel.IsMouseOver = false;
             this.uiBtnCancel.Location = new System.Drawing.Point(633, 2);
             this.uiBtnCancel.Name = "uiBtnCancel";
-            this.uiBtnCancel.Size = new System.Drawing.Size(48, 44);
+            this.uiBtnCancel.Size = new System.Drawing.Size(48, 48);
             this.uiBtnCancel.TabIndex = 14;
             this.uiBtnCancel.TabStop = false;
             this.uiBtnCancel.Text = "Cancel";
@@ -132,11 +132,11 @@
             this.uiBtnPause.DisplayText = "Pause";
             this.uiBtnPause.DisplayTextBrush = System.Drawing.Color.AliceBlue;
             this.uiBtnPause.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.uiBtnPause.Image = global::taskt.Properties.Resources.command_pause;
+            this.uiBtnPause.Image = global::JAuto.Properties.Resources.command_pause;
             this.uiBtnPause.IsMouseOver = false;
             this.uiBtnPause.Location = new System.Drawing.Point(579, 2);
             this.uiBtnPause.Name = "uiBtnPause";
-            this.uiBtnPause.Size = new System.Drawing.Size(48, 44);
+            this.uiBtnPause.Size = new System.Drawing.Size(48, 48);
             this.uiBtnPause.TabIndex = 15;
             this.uiBtnPause.TabStop = false;
             this.uiBtnPause.Text = "Pause";
@@ -145,8 +145,8 @@
             // pbBotIcon
             // 
             this.pbBotIcon.BackColor = System.Drawing.Color.Transparent;
-            this.pbBotIcon.Image = global::taskt.Properties.Resources.executing;
-            this.pbBotIcon.Location = new System.Drawing.Point(7, 52);
+            this.pbBotIcon.Image = global::JAuto.Properties.Resources.executing;
+            this.pbBotIcon.Location = new System.Drawing.Point(7, 56);
             this.pbBotIcon.Name = "pbBotIcon";
             this.pbBotIcon.Size = new System.Drawing.Size(675, 135);
             this.pbBotIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -156,10 +156,10 @@
             // 
             // frmScriptEngine
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(694, 228);
+            this.ClientSize = new System.Drawing.Size(694, 247);
             this.Controls.Add(this.lblAction);
             this.Controls.Add(this.lblKillProcNote);
             this.Controls.Add(this.uiBtnCancel);

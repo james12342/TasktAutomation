@@ -316,7 +316,7 @@ namespace taskt.UI.Forms
 
                 if ((!advancedDebug) && (mainLogoText.Contains("(error)")))
                 {
-                    pbBotIcon.Image = Properties.Resources.error;
+                    pbBotIcon.Image = JAuto.Properties.Resources.error;
                 }
 
                 if (mainLogoText.Contains("(error)"))
@@ -626,14 +626,14 @@ namespace taskt.UI.Forms
             if (uiBtnPause.DisplayText == "Pause")
             {
                 lstSteppingCommands.Items.Add("[User Requested Pause]");
-                uiBtnPause.Image = Properties.Resources.action_bar_run;
+                uiBtnPause.Image = JAuto.Properties.Resources.action_bar_run;
                 uiBtnPause.DisplayText = "Resume";
                 engineInstance.PauseScript();
             }
             else
             {
                 lstSteppingCommands.Items.Add("[User Requested Resume]");
-                uiBtnPause.Image = Properties.Resources.command_pause;
+                uiBtnPause.Image = JAuto.Properties.Resources.command_pause;
                 uiBtnPause.DisplayText = "Pause";
                 engineInstance.ResumeScript();
             }

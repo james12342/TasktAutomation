@@ -92,9 +92,9 @@
             this.lblMainLogo.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblMainLogo.Location = new System.Drawing.Point(1, 4);
             this.lblMainLogo.Name = "lblMainLogo";
-            this.lblMainLogo.Size = new System.Drawing.Size(152, 37);
+            this.lblMainLogo.Size = new System.Drawing.Size(157, 37);
             this.lblMainLogo.TabIndex = 0;
-            this.lblMainLogo.Text = "schedule";
+            this.lblMainLogo.Text = "Schedule";
             // 
             // lblScheduledScripts
             // 
@@ -236,7 +236,7 @@
             this.uiBtnShowScheduleManager.DisplayText = "Launch Task Scheduler";
             this.uiBtnShowScheduleManager.DisplayTextBrush = System.Drawing.Color.AliceBlue;
             this.uiBtnShowScheduleManager.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.uiBtnShowScheduleManager.Image = global::taskt.Properties.Resources.command_files;
+            this.uiBtnShowScheduleManager.Image = global::JAuto.Properties.Resources.command_files;
             this.uiBtnShowScheduleManager.IsMouseOver = false;
             this.uiBtnShowScheduleManager.Location = new System.Drawing.Point(469, 4);
             this.uiBtnShowScheduleManager.Name = "uiBtnShowScheduleManager";
@@ -253,7 +253,7 @@
             this.uiBtnOk.DisplayText = "Add";
             this.uiBtnOk.DisplayTextBrush = System.Drawing.Color.White;
             this.uiBtnOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.uiBtnOk.Image = global::taskt.Properties.Resources.logo;
+            this.uiBtnOk.Image = global::JAuto.Properties.Resources.logo;
             this.uiBtnOk.IsMouseOver = false;
             this.uiBtnOk.Location = new System.Drawing.Point(7, 423);
             this.uiBtnOk.Name = "uiBtnOk";

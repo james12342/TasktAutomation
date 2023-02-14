@@ -1505,7 +1505,7 @@ namespace taskt.UI.Forms
         private void pnlStatus_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawString(notificationText, pnlStatus.Font, Brushes.White, 30, 4);
-            e.Graphics.DrawImage(Properties.Resources.message, 5, 3, 24, 24);
+            e.Graphics.DrawImage(JAuto.Properties.Resources.message, 5, 3, 24, 24);
 
         }
 
