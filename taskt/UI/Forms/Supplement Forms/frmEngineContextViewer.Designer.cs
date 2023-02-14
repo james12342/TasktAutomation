@@ -43,9 +43,9 @@
             // 
             this.tvContext.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tvContext.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tvContext.Location = new System.Drawing.Point(3, 49);
+            this.tvContext.Location = new System.Drawing.Point(3, 53);
             this.tvContext.Name = "tvContext";
-            this.tvContext.Size = new System.Drawing.Size(798, 323);
+            this.tvContext.Size = new System.Drawing.Size(798, 351);
             this.tvContext.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -60,10 +60,10 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 51F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(804, 426);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(804, 462);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // lblMainLogo
@@ -82,9 +82,9 @@
             // 
             this.pnlDialogResult.Controls.Add(this.uiBtnOk);
             this.pnlDialogResult.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlDialogResult.Location = new System.Drawing.Point(3, 378);
+            this.pnlDialogResult.Location = new System.Drawing.Point(3, 410);
             this.pnlDialogResult.Name = "pnlDialogResult";
-            this.pnlDialogResult.Size = new System.Drawing.Size(798, 45);
+            this.pnlDialogResult.Size = new System.Drawing.Size(798, 49);
             this.pnlDialogResult.TabIndex = 1;
             // 
             // uiBtnOk
@@ -99,7 +99,7 @@
             this.uiBtnOk.Location = new System.Drawing.Point(9, -4);
             this.uiBtnOk.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.uiBtnOk.Name = "uiBtnOk";
-            this.uiBtnOk.Size = new System.Drawing.Size(88, 45);
+            this.uiBtnOk.Size = new System.Drawing.Size(88, 49);
             this.uiBtnOk.TabIndex = 18;
             this.uiBtnOk.TabStop = false;
             this.uiBtnOk.Text = "Ok";
@@ -107,9 +107,9 @@
             // 
             // frmEngineContextViewer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 426);
+            this.ClientSize = new System.Drawing.Size(804, 462);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmEngineContextViewer";

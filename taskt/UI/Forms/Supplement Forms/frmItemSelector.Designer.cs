@@ -42,7 +42,7 @@
             this.lstVariables.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstVariables.FormattingEnabled = true;
             this.lstVariables.ItemHeight = 21;
-            this.lstVariables.Location = new System.Drawing.Point(12, 38);
+            this.lstVariables.Location = new System.Drawing.Point(12, 41);
             this.lstVariables.Name = "lstVariables";
             this.lstVariables.Size = new System.Drawing.Size(328, 130);
             this.lstVariables.TabIndex = 0;
@@ -69,10 +69,10 @@
             this.uiBtnOk.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.uiBtnOk.Image = global::taskt.Properties.Resources.various_ok_button;
             this.uiBtnOk.IsMouseOver = false;
-            this.uiBtnOk.Location = new System.Drawing.Point(12, 189);
+            this.uiBtnOk.Location = new System.Drawing.Point(12, 205);
             this.uiBtnOk.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.uiBtnOk.Name = "uiBtnOk";
-            this.uiBtnOk.Size = new System.Drawing.Size(88, 45);
+            this.uiBtnOk.Size = new System.Drawing.Size(88, 49);
             this.uiBtnOk.TabIndex = 18;
             this.uiBtnOk.TabStop = false;
             this.uiBtnOk.Text = "Ok";
@@ -87,10 +87,10 @@
             this.uiBtnCancel.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.uiBtnCancel.Image = global::taskt.Properties.Resources.various_cancel_button;
             this.uiBtnCancel.IsMouseOver = false;
-            this.uiBtnCancel.Location = new System.Drawing.Point(106, 189);
+            this.uiBtnCancel.Location = new System.Drawing.Point(106, 205);
             this.uiBtnCancel.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.uiBtnCancel.Name = "uiBtnCancel";
-            this.uiBtnCancel.Size = new System.Drawing.Size(88, 45);
+            this.uiBtnCancel.Size = new System.Drawing.Size(88, 49);
             this.uiBtnCancel.TabIndex = 19;
             this.uiBtnCancel.TabStop = false;
             this.uiBtnCancel.Text = "Cancel";
@@ -98,9 +98,9 @@
             // 
             // frmItemSelector
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 242);
+            this.ClientSize = new System.Drawing.Size(353, 262);
             this.Controls.Add(this.uiBtnOk);
             this.Controls.Add(this.uiBtnCancel);
             this.Controls.Add(this.lblHeader);

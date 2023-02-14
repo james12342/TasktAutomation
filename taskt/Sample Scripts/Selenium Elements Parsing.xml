@@ -2,25 +2,25 @@
 <Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Commands>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="1" PauseBeforeExeucution="false" v_Comment="Selenium Example with Multi-Element Support" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="a9bc29c8-e4ac-4c96-8b7d-6bc300eb070f" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="1" PauseBeforeExeucution="false" v_Comment="Selenium Example with Multi-Element Support" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="SeleniumBrowserCreateCommand" CommandName="SeleniumBrowserCreateCommand" IsCommented="false" SelectionName="Create Browser" DefaultPause="250" LineNumber="2" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_InstanceTracking="Forget Instance" v_BrowserWindowOption="Maximize" />
+      <ScriptCommand xsi:type="SeleniumBrowserCreateCommand" CommandID="50a17520-ca93-45ce-acae-923eb15319a4" CommandName="SeleniumBrowserCreateCommand" IsCommented="false" SelectionName="Create Browser" DefaultPause="250" LineNumber="2" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_InstanceTracking="Forget Instance" v_BrowserWindowOption="Maximize" v_EngineType="Chrome" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="3" PauseBeforeExeucution="false" v_Comment="Navigate to URL" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="83f62547-69cc-48a6-b877-5d95fdfeff64" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="3" PauseBeforeExeucution="false" v_Comment="Navigate to URL" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="SeleniumBrowserNavigateURLCommand" CommandName="SeleniumBrowserNavigateURLCommand" IsCommented="false" SelectionName="Navigate to URL" DefaultPause="250" LineNumber="4" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_URL="https://wiki.taskt.net/" />
+      <ScriptCommand xsi:type="SeleniumBrowserNavigateURLCommand" CommandID="e15403cb-1526-4c6c-9d8d-79a0d05e5ddc" CommandName="SeleniumBrowserNavigateURLCommand" IsCommented="false" SelectionName="Navigate to URL" DefaultPause="250" LineNumber="4" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_URL="https://wiki.taskt.net/" v_UseHttps="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="5" PauseBeforeExeucution="false" v_Comment="Find Elements and Apply To Variable for Processing" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="370cfcfa-f76c-401f-8902-6829f04c78be" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="5" PauseBeforeExeucution="false" v_Comment="Find Elements and Apply To Variable for Processing" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="6" PauseBeforeExeucution="false" v_Comment="In this example, we will find and process h1 tags" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="9b17cdf1-b422-499f-b609-6af916c3aaa7" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="6" PauseBeforeExeucution="false" v_Comment="In this example, we will find and process h1 tags" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandName="SeleniumBrowserCreateCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="250" LineNumber="7" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Elements By Tag Name" v_SeleniumSearchParameter="h1">
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="e39271d2-e7cf-453f-a84c-1e54837d87a8" CommandName="SeleniumBrowserCreateCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="250" LineNumber="7" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="default" v_SeleniumSearchType="Find Elements By Tag Name" v_SeleniumSearchParameter="h1">
         <v_SeleniumElementAction>Get Matching Elements</v_SeleniumElementAction>
         <v_WebActionParameterTable>
           <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -52,30 +52,30 @@
       </ScriptCommand>
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="8" PauseBeforeExeucution="false" v_Comment="Loop List vElements which contains Element Data" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="14de03b6-3d3e-45bd-ae14-fb2c76bf4b36" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="8" PauseBeforeExeucution="false" v_Comment="Loop List vElements which contains Element Data" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="BeginListLoopCommand" CommandName="BeginListLoopCommand" IsCommented="false" SelectionName="Loop List" DefaultPause="250" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_LoopParameter="vElements" />
+      <ScriptCommand xsi:type="BeginListLoopCommand" CommandID="91925cf5-c0d1-4fb1-ad69-224193347455" CommandName="BeginListLoopCommand" IsCommented="false" SelectionName="Loop List" DefaultPause="250" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_LoopParameter="vElements" />
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="10" PauseBeforeExeucution="false" v_Comment="Show Full Complex Variable WARNING: SLOW TO PARSE" CommandEnabled="true" />
+        <ScriptCommand xsi:type="CommentCommand" CommandID="bfe77fd2-d0cb-4446-9064-9144adc60922" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="10" PauseBeforeExeucution="false" v_Comment="Show Full Complex Variable WARNING: SLOW TO PARSE" CommandEnabled="true" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="MessageBoxCommand" CommandName="MessageBoxCommand" IsCommented="true" SelectionName="Show Message" DefaultPause="250" LineNumber="11" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vElements]" v_AutoCloseAfter="0" />
+        <ScriptCommand xsi:type="MessageBoxCommand" CommandID="8a7f46c4-1159-405d-9435-9145c78dc789" CommandName="MessageBoxCommand" IsCommented="true" SelectionName="Show Message" DefaultPause="250" LineNumber="11" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vElements]" v_AutoCloseAfter="0" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="12" PauseBeforeExeucution="false" v_Comment="To call a complex variable property use the pattern [VariableName =&gt; $.Property]" CommandEnabled="true" />
+        <ScriptCommand xsi:type="CommentCommand" CommandID="008a1b49-47ef-4a9a-b712-b8ccb413acbb" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="12" PauseBeforeExeucution="false" v_Comment="To call a complex variable property use the pattern [VariableName =&gt; $.Property]" CommandEnabled="true" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="13" PauseBeforeExeucution="false" v_Comment="To call a complex variable use the pattern [VariableName =&gt; $.PropertyName]" CommandEnabled="true" />
+        <ScriptCommand xsi:type="CommentCommand" CommandID="5d2a7496-fd27-420f-85e6-73903e74f612" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="13" PauseBeforeExeucution="false" v_Comment="To call a complex variable use the pattern [VariableName =&gt; $.PropertyName]" CommandEnabled="true" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="MessageBoxCommand" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="14" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="The text of the element is '[vElements =&gt; $.Text]'" v_AutoCloseAfter="0" />
+        <ScriptCommand xsi:type="MessageBoxCommand" CommandID="049dafb8-3df7-402f-a2b2-8543f7259d31" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="14" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="The text of the element is '[vElements =&gt; $.Text]'" v_AutoCloseAfter="0" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="15" PauseBeforeExeucution="false" v_Comment="Test to see if a value was found" CommandEnabled="true" />
+        <ScriptCommand xsi:type="CommentCommand" CommandID="c497e203-8bf5-455f-9035-45a241f021f6" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="15" PauseBeforeExeucution="false" v_Comment="Test to see if a value was found" CommandEnabled="true" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="BeginIfCommand" CommandName="BeginIfCommand" IsCommented="false" SelectionName="Begin If" DefaultPause="250" LineNumber="16" PauseBeforeExeucution="false" CommandEnabled="true" v_IfActionType="Variable Has Value">
+        <ScriptCommand xsi:type="BeginIfCommand" CommandID="10648384-fd4e-48ce-8413-9a28e0ba1406" CommandName="BeginIfCommand" IsCommented="false" SelectionName="Begin If" DefaultPause="250" LineNumber="16" PauseBeforeExeucution="false" CommandEnabled="true" v_IfActionType="Variable Has Value">
           <v_IfActionParameterTable>
             <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
               <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="I9AcPionPara55Table101918.085551" msdata:UseCurrentLocale="true">
@@ -104,26 +104,26 @@
           </v_IfActionParameterTable>
         </ScriptCommand>
         <AdditionalScriptCommands>
-          <ScriptCommand xsi:type="MessageBoxCommand" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="17" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="The Element has Value" v_AutoCloseAfter="0" />
+          <ScriptCommand xsi:type="MessageBoxCommand" CommandID="cb2a3130-a7b5-4a10-8ec0-3798e86a63b2" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="17" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="The Element has Value" v_AutoCloseAfter="0" />
         </AdditionalScriptCommands>
         <AdditionalScriptCommands>
-          <ScriptCommand xsi:type="EndIfCommand" CommandName="EndIfCommand" IsCommented="false" SelectionName="End If" DefaultPause="0" LineNumber="18" PauseBeforeExeucution="false" CommandEnabled="true" />
+          <ScriptCommand xsi:type="EndIfCommand" CommandID="a260db4b-c743-4a9f-b8e9-10f680852af6" CommandName="EndIfCommand" IsCommented="false" SelectionName="End If" DefaultPause="0" LineNumber="18" PauseBeforeExeucution="false" CommandEnabled="true" />
         </AdditionalScriptCommands>
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="MessageBoxCommand" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="19" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="The size of the element is '[vElements =&gt; $.Size]'" v_AutoCloseAfter="0" />
+        <ScriptCommand xsi:type="MessageBoxCommand" CommandID="6d6014fe-70e0-43fc-ac00-75971f0dbb8f" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="19" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="The size of the element is '[vElements =&gt; $.Size]'" v_AutoCloseAfter="0" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="20" PauseBeforeExeucution="false" v_Comment="Example for how to call nested property" CommandEnabled="true" />
+        <ScriptCommand xsi:type="CommentCommand" CommandID="c8754b3b-d01b-47c2-88e6-027b346cf8f1" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="20" PauseBeforeExeucution="false" v_Comment="Example for how to call nested property" CommandEnabled="true" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="MessageBoxCommand" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="21" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="The approximate coordinate location of the element is at '[vElements =&gt; $.Coordinates.LocationInViewport]'. Lets move the mouse to that location!" v_AutoCloseAfter="0" />
+        <ScriptCommand xsi:type="MessageBoxCommand" CommandID="dd8cc79f-4687-45fe-b778-a0b1ffa27db2" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="21" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="The approximate coordinate location of the element is at '[vElements =&gt; $.Coordinates.LocationInViewport]'. Lets move the mouse to that location!" v_AutoCloseAfter="0" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="22" PauseBeforeExeucution="false" v_Comment="Extract Coordinates From Element" CommandEnabled="true" />
+        <ScriptCommand xsi:type="CommentCommand" CommandID="373a57a3-57e9-4477-be76-21b3b49996af" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="22" PauseBeforeExeucution="false" v_Comment="Extract Coordinates From Element" CommandEnabled="true" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="TextExtractorCommand" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="23" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vElements =&gt; $.Coordinates.LocationInViewport]" v_TextExtractionType="Extract All Before Text" v_applyToVariableName="vXLoc">
+        <ScriptCommand xsi:type="TextExtractorCommand" CommandID="d9d87e40-db6b-462b-bdc5-684cfc9d453f" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="23" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vElements =&gt; $.Coordinates.LocationInViewport]" v_TextExtractionType="Extract All Before Text" v_applyToVariableName="vXLoc">
           <v_TextExtractionTable>
             <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
               <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="TexPExPracPorPara39Table101918.073919" msdata:UseCurrentLocale="true">
@@ -157,7 +157,7 @@
         </ScriptCommand>
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="TextExtractorCommand" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="24" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vElements =&gt; $.Coordinates.LocationInViewport]" v_TextExtractionType="Extract All After Text" v_applyToVariableName="vYLoc">
+        <ScriptCommand xsi:type="TextExtractorCommand" CommandID="e96d283d-4311-4bfd-bf94-1fa4e478100f" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="24" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vElements =&gt; $.Coordinates.LocationInViewport]" v_TextExtractionType="Extract All After Text" v_applyToVariableName="vYLoc">
           <v_TextExtractionTable>
             <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
               <xs:element name="TexPExPracPorPara39Table101918.073919">
@@ -192,16 +192,16 @@
         </ScriptCommand>
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="25" PauseBeforeExeucution="false" v_Comment="Move Mouse to Coordinates" CommandEnabled="true" />
+        <ScriptCommand xsi:type="CommentCommand" CommandID="5242f9c9-04bc-442d-871b-12c7aaa3515e" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="25" PauseBeforeExeucution="false" v_Comment="Move Mouse to Coordinates" CommandEnabled="true" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="26" PauseBeforeExeucution="false" v_Comment="+50 and + 130 offsets due to difference in DOM vs On-Screen (Nav Bar, etc)" CommandEnabled="true" />
+        <ScriptCommand xsi:type="CommentCommand" CommandID="97b7b2c0-33a0-4d5a-bbbe-a1c69b4cab94" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="26" PauseBeforeExeucution="false" v_Comment="+50 and + 130 offsets due to difference in DOM vs On-Screen (Nav Bar, etc)" CommandEnabled="true" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="SendMouseMoveCommand" CommandName="SendMouseMoveCommand" IsCommented="false" SelectionName="Send Mouse Move" DefaultPause="250" LineNumber="27" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="[vXLoc] + 50" v_YMousePosition="[vYLoc] + 130" v_MouseClick="None" />
+        <ScriptCommand xsi:type="SendMouseMoveCommand" CommandID="5202e8ae-c892-4459-ac71-ad7d2d88882b" CommandName="SendMouseMoveCommand" IsCommented="false" SelectionName="Send Mouse Move" DefaultPause="250" LineNumber="27" PauseBeforeExeucution="false" CommandEnabled="true" v_XMousePosition="[vXLoc] + 50" v_YMousePosition="[vYLoc] + 130" v_MouseClick="None" />
       </AdditionalScriptCommands>
       <AdditionalScriptCommands>
-        <ScriptCommand xsi:type="EndLoopCommand" CommandName="EndLoopCommand" IsCommented="false" SelectionName="End Loop" DefaultPause="0" LineNumber="28" PauseBeforeExeucution="false" CommandEnabled="true" />
+        <ScriptCommand xsi:type="EndLoopCommand" CommandID="95563380-9769-4187-b00c-f1a485a82a7a" CommandName="EndLoopCommand" IsCommented="false" SelectionName="End Loop" DefaultPause="0" LineNumber="28" PauseBeforeExeucution="false" CommandEnabled="true" />
       </AdditionalScriptCommands>
     </ScriptAction>
   </Commands>

@@ -18,7 +18,8 @@ namespace taskt.Core
             set { _BgGradientStartColor = value; }
         }
 
-        Color _BgGradientEndColor = Color.FromArgb(43, 50, 178);
+       // Color _BgGradientEndColor = Color.FromArgb(43, 50, 178);
+        Color _BgGradientEndColor = Color.Green;
         public Color BgGradientEndColor
         {
             get { return _BgGradientEndColor; }

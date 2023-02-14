@@ -48,7 +48,7 @@
             this.lblDefineName.BackColor = System.Drawing.Color.Transparent;
             this.lblDefineName.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefineName.ForeColor = System.Drawing.Color.White;
-            this.lblDefineName.Location = new System.Drawing.Point(10, 44);
+            this.lblDefineName.Location = new System.Drawing.Point(10, 48);
             this.lblDefineName.Name = "lblDefineName";
             this.lblDefineName.Size = new System.Drawing.Size(167, 21);
             this.lblDefineName.TabIndex = 1;
@@ -70,7 +70,7 @@
             // 
             this.txtVariableName.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVariableName.ForeColor = System.Drawing.Color.SteelBlue;
-            this.txtVariableName.Location = new System.Drawing.Point(16, 128);
+            this.txtVariableName.Location = new System.Drawing.Point(16, 139);
             this.txtVariableName.Name = "txtVariableName";
             this.txtVariableName.Size = new System.Drawing.Size(279, 27);
             this.txtVariableName.TabIndex = 3;
@@ -80,9 +80,9 @@
             this.lblDefineNameDescription.BackColor = System.Drawing.Color.Transparent;
             this.lblDefineNameDescription.Font = new System.Drawing.Font("Segoe UI Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefineNameDescription.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblDefineNameDescription.Location = new System.Drawing.Point(12, 64);
+            this.lblDefineNameDescription.Location = new System.Drawing.Point(12, 69);
             this.lblDefineNameDescription.Name = "lblDefineNameDescription";
-            this.lblDefineNameDescription.Size = new System.Drawing.Size(409, 61);
+            this.lblDefineNameDescription.Size = new System.Drawing.Size(409, 66);
             this.lblDefineNameDescription.TabIndex = 2;
             this.lblDefineNameDescription.Tag = "Define a name for your variable, such as \'vNumber\'.  Remember to enclose the name" +
     " within brackets in order to use the variable in commands, ex. {{{vNumber}}}.";
@@ -94,9 +94,9 @@
             this.lblDefineDefaultValueDescriptor.BackColor = System.Drawing.Color.Transparent;
             this.lblDefineDefaultValueDescriptor.Font = new System.Drawing.Font("Segoe UI Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefineDefaultValueDescriptor.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblDefineDefaultValueDescriptor.Location = new System.Drawing.Point(12, 181);
+            this.lblDefineDefaultValueDescriptor.Location = new System.Drawing.Point(12, 196);
             this.lblDefineDefaultValueDescriptor.Name = "lblDefineDefaultValueDescriptor";
-            this.lblDefineDefaultValueDescriptor.Size = new System.Drawing.Size(409, 63);
+            this.lblDefineDefaultValueDescriptor.Size = new System.Drawing.Size(409, 68);
             this.lblDefineDefaultValueDescriptor.TabIndex = 5;
             this.lblDefineDefaultValueDescriptor.Text = "Optionally, define a default value for the variable.  The variable will represent" +
     " this value until changed during the task by a task command.";
@@ -105,7 +105,7 @@
             // 
             this.txtDefaultValue.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDefaultValue.ForeColor = System.Drawing.Color.SteelBlue;
-            this.txtDefaultValue.Location = new System.Drawing.Point(14, 248);
+            this.txtDefaultValue.Location = new System.Drawing.Point(14, 269);
             this.txtDefaultValue.Name = "txtDefaultValue";
             this.txtDefaultValue.Size = new System.Drawing.Size(279, 27);
             this.txtDefaultValue.TabIndex = 6;
@@ -116,7 +116,7 @@
             this.lblDefineDefaultValue.BackColor = System.Drawing.Color.Transparent;
             this.lblDefineDefaultValue.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefineDefaultValue.ForeColor = System.Drawing.Color.White;
-            this.lblDefineDefaultValue.Location = new System.Drawing.Point(12, 162);
+            this.lblDefineDefaultValue.Location = new System.Drawing.Point(12, 176);
             this.lblDefineDefaultValue.Name = "lblDefineDefaultValue";
             this.lblDefineDefaultValue.Size = new System.Drawing.Size(220, 21);
             this.lblDefineDefaultValue.TabIndex = 4;
@@ -131,10 +131,10 @@
             this.uiBtnOk.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.uiBtnOk.Image = global::taskt.Properties.Resources.various_ok_button;
             this.uiBtnOk.IsMouseOver = false;
-            this.uiBtnOk.Location = new System.Drawing.Point(14, 280);
+            this.uiBtnOk.Location = new System.Drawing.Point(14, 303);
             this.uiBtnOk.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.uiBtnOk.Name = "uiBtnOk";
-            this.uiBtnOk.Size = new System.Drawing.Size(53, 45);
+            this.uiBtnOk.Size = new System.Drawing.Size(53, 49);
             this.uiBtnOk.TabIndex = 21;
             this.uiBtnOk.TabStop = false;
             this.uiBtnOk.Text = "Ok";
@@ -149,10 +149,10 @@
             this.uiBtnCancel.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.uiBtnCancel.Image = global::taskt.Properties.Resources.various_cancel_button;
             this.uiBtnCancel.IsMouseOver = false;
-            this.uiBtnCancel.Location = new System.Drawing.Point(72, 281);
+            this.uiBtnCancel.Location = new System.Drawing.Point(72, 304);
             this.uiBtnCancel.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.uiBtnCancel.Name = "uiBtnCancel";
-            this.uiBtnCancel.Size = new System.Drawing.Size(53, 45);
+            this.uiBtnCancel.Size = new System.Drawing.Size(53, 49);
             this.uiBtnCancel.TabIndex = 22;
             this.uiBtnCancel.TabStop = false;
             this.uiBtnCancel.Text = "Cancel";
@@ -160,9 +160,9 @@
             // 
             // frmAddVariable
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 334);
+            this.ClientSize = new System.Drawing.Size(465, 362);
             this.Controls.Add(this.uiBtnOk);
             this.Controls.Add(this.uiBtnCancel);
             this.Controls.Add(this.lblDefineDefaultValueDescriptor);

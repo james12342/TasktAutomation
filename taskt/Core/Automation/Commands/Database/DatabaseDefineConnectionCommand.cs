@@ -202,6 +202,7 @@ namespace taskt.Core.Automation.Commands
             {
                 var engine = new Engine.AutomationEngineInstance();
                 var oleDBConnection = CreateConnection(engine);
+                
                 oleDBConnection.Open();
                 oleDBConnection.Close();
                 MessageBox.Show("Connection Successful", "Test Connection", MessageBoxButtons.OK, MessageBoxIcon.Information);

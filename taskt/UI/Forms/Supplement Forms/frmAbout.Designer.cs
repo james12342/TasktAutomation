@@ -1,4 +1,6 @@
-﻿namespace taskt.UI.Forms.Supplemental
+﻿using System.Drawing;
+
+namespace taskt.UI.Forms.Supplemental
 {
     partial class frmAbout
     {
@@ -99,7 +101,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(612, 221);
+            this.BackColor = System.Drawing.Color.Red;
+            this.ClientSize = new System.Drawing.Size(612, 234);
             this.Controls.Add(this.lblProjectName);
             this.Controls.Add(this.lblAppVersion);
             this.Controls.Add(this.label2);

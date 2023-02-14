@@ -46,9 +46,9 @@
             this.lblhelperText.BackColor = System.Drawing.Color.Transparent;
             this.lblhelperText.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhelperText.ForeColor = System.Drawing.Color.White;
-            this.lblhelperText.Location = new System.Drawing.Point(5, 95);
+            this.lblhelperText.Location = new System.Drawing.Point(5, 103);
             this.lblhelperText.Name = "lblhelperText";
-            this.lblhelperText.Size = new System.Drawing.Size(381, 48);
+            this.lblhelperText.Size = new System.Drawing.Size(381, 52);
             this.lblhelperText.TabIndex = 2;
             this.lblhelperText.Text = "hint: With this window focused, press the spacebar to capture the current mouse p" +
     "osition";
@@ -59,7 +59,7 @@
             this.lblYPosition.BackColor = System.Drawing.Color.Transparent;
             this.lblYPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblYPosition.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lblYPosition.Location = new System.Drawing.Point(12, 41);
+            this.lblYPosition.Location = new System.Drawing.Point(12, 44);
             this.lblYPosition.Name = "lblYPosition";
             this.lblYPosition.Size = new System.Drawing.Size(128, 29);
             this.lblYPosition.TabIndex = 1;
@@ -71,7 +71,7 @@
             this.lblXPosition.BackColor = System.Drawing.Color.Transparent;
             this.lblXPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblXPosition.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lblXPosition.Location = new System.Drawing.Point(11, 8);
+            this.lblXPosition.Location = new System.Drawing.Point(11, 9);
             this.lblXPosition.Name = "lblXPosition";
             this.lblXPosition.Size = new System.Drawing.Size(129, 29);
             this.lblXPosition.TabIndex = 0;
@@ -79,11 +79,11 @@
             // 
             // frmShowCursorPosition
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.BackgroundChangeIndex = 92;
-            this.ClientSize = new System.Drawing.Size(398, 145);
+            this.ClientSize = new System.Drawing.Size(398, 157);
             this.Controls.Add(this.lblhelperText);
             this.Controls.Add(this.lblYPosition);
             this.Controls.Add(this.lblXPosition);

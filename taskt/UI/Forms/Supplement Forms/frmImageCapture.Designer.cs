@@ -84,6 +84,7 @@
             this.uiAccept.Size = new System.Drawing.Size(48, 48);
             this.uiAccept.TabIndex = 1;
             this.uiAccept.TabStop = false;
+            this.uiAccept.Text = "Accept";
             this.uiAccept.Click += new System.EventHandler(this.uiAccept_Click);
             // 
             // uiClose
@@ -100,6 +101,7 @@
             this.uiClose.Size = new System.Drawing.Size(48, 48);
             this.uiClose.TabIndex = 2;
             this.uiClose.TabStop = false;
+            this.uiClose.Text = "Close";
             this.uiClose.Click += new System.EventHandler(this.uiClose_Click);
             // 
             // tabTestMode

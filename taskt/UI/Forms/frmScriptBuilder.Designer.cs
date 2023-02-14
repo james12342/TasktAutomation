@@ -401,6 +401,7 @@
             // 
             // tsSearchBox
             // 
+            this.tsSearchBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tsSearchBox.Name = "tsSearchBox";
             this.tsSearchBox.Size = new System.Drawing.Size(100, 26);
             this.tsSearchBox.Visible = false;
@@ -498,7 +499,7 @@
             this.lnkStartEdit.AutoSize = true;
             this.lnkStartEdit.Font = new System.Drawing.Font("Segoe UI Light", 16F);
             this.lnkStartEdit.LinkColor = System.Drawing.Color.AliceBlue;
-            this.lnkStartEdit.Location = new System.Drawing.Point(315, 4);
+            this.lnkStartEdit.Location = new System.Drawing.Point(421, 2);
             this.lnkStartEdit.Name = "lnkStartEdit";
             this.lnkStartEdit.Size = new System.Drawing.Size(156, 30);
             this.lnkStartEdit.TabIndex = 17;
@@ -582,6 +583,7 @@
             this.lnkGitWiki.TabIndex = 6;
             this.lnkGitWiki.TabStop = true;
             this.lnkGitWiki.Text = "View Documentation/Wiki";
+            this.lnkGitWiki.Visible = false;
             this.lnkGitWiki.VisitedLinkColor = System.Drawing.Color.LightSteelBlue;
             this.lnkGitWiki.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGitWiki_LinkClicked);
             // 
@@ -597,6 +599,7 @@
             this.lnkGitIssue.TabIndex = 5;
             this.lnkGitIssue.TabStop = true;
             this.lnkGitIssue.Text = "Request Enhancement or Report a bug";
+            this.lnkGitIssue.Visible = false;
             this.lnkGitIssue.VisitedLinkColor = System.Drawing.Color.LightSteelBlue;
             this.lnkGitIssue.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGitIssue_LinkClicked);
             // 
@@ -612,6 +615,7 @@
             this.lnkGitLatestReleases.TabIndex = 4;
             this.lnkGitLatestReleases.TabStop = true;
             this.lnkGitLatestReleases.Text = "View Latest Releases";
+            this.lnkGitLatestReleases.Visible = false;
             this.lnkGitLatestReleases.VisitedLinkColor = System.Drawing.Color.LightSteelBlue;
             this.lnkGitLatestReleases.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGitLatestReleases_LinkClicked);
             // 
@@ -627,6 +631,7 @@
             this.lnkGitProject.TabIndex = 3;
             this.lnkGitProject.TabStop = true;
             this.lnkGitProject.Text = "View Project on GitHub";
+            this.lnkGitProject.Visible = false;
             this.lnkGitProject.VisitedLinkColor = System.Drawing.Color.LightSteelBlue;
             this.lnkGitProject.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGitProject_LinkClicked);
             // 
@@ -637,9 +642,9 @@
             this.label1.ForeColor = System.Drawing.Color.AliceBlue;
             this.label1.Location = new System.Drawing.Point(111, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(179, 30);
+            this.label1.Size = new System.Drawing.Size(239, 30);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Welcome to taskt!";
+            this.label1.Text = "Welcome to James Automation";
             // 
             // lblNote
             // 
@@ -729,9 +734,9 @@
             this.lblMainLogo.Location = new System.Drawing.Point(2, -1);
             this.lblMainLogo.Margin = new System.Windows.Forms.Padding(0);
             this.lblMainLogo.Name = "lblMainLogo";
-            this.lblMainLogo.Size = new System.Drawing.Size(251, 45);
+            this.lblMainLogo.Size = new System.Drawing.Size(180, 45);
             this.lblMainLogo.TabIndex = 0;
-            this.lblMainLogo.Text = "taskt 健哥自动化";
+            this.lblMainLogo.Text = "James Automation";
             this.lblMainLogo.Click += new System.EventHandler(this.lblMainLogo_Click);
             // 
             // lblCoordinatorInfo
@@ -1292,7 +1297,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmScriptBuilder";
-            this.Text = "taskt 健哥自动化";
+            this.Text = "taskt James Automation";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmScriptBuilder_FormClosing);
             this.Load += new System.EventHandler(this.frmScriptBuilder_Load);
             this.Shown += new System.EventHandler(this.frmScriptBuilder_Shown);

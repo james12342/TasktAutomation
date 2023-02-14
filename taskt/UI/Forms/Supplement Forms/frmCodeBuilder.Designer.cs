@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCodeBuilder));
             this.tlpBuilder = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.uiBtnSample = new taskt.UI.CustomControls.UIPictureButton();
-            this.uiBtnSave = new taskt.UI.CustomControls.UIPictureButton();
             this.chkRunAfterCompile = new System.Windows.Forms.CheckBox();
             this.lblHeader = new System.Windows.Forms.Label();
-            this.uiBtnCompile = new taskt.UI.CustomControls.UIPictureButton();
             this.lstCompilerResults = new System.Windows.Forms.ListBox();
             this.rtbCode = new System.Windows.Forms.RichTextBox();
+            this.uiBtnSample = new taskt.UI.CustomControls.UIPictureButton();
+            this.uiBtnSave = new taskt.UI.CustomControls.UIPictureButton();
+            this.uiBtnCompile = new taskt.UI.CustomControls.UIPictureButton();
             this.tlpBuilder.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uiBtnSample)).BeginInit();
@@ -76,38 +76,6 @@
             this.panel1.Size = new System.Drawing.Size(821, 54);
             this.panel1.TabIndex = 2;
             // 
-            // uiBtnSample
-            // 
-            this.uiBtnSample.BackColor = System.Drawing.Color.Transparent;
-            this.uiBtnSample.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.uiBtnSample.DisplayText = "Sample";
-            this.uiBtnSample.DisplayTextBrush = System.Drawing.Color.White;
-            this.uiBtnSample.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.uiBtnSample.Image = global::taskt.Properties.Resources.action_bar_new;
-            this.uiBtnSample.IsMouseOver = false;
-            this.uiBtnSample.Location = new System.Drawing.Point(218, 3);
-            this.uiBtnSample.Name = "uiBtnSample";
-            this.uiBtnSample.Size = new System.Drawing.Size(52, 48);
-            this.uiBtnSample.TabIndex = 19;
-            this.uiBtnSample.TabStop = false;
-            this.uiBtnSample.Click += new System.EventHandler(this.uiBtnSample_Click);
-            // 
-            // uiBtnSave
-            // 
-            this.uiBtnSave.BackColor = System.Drawing.Color.Transparent;
-            this.uiBtnSave.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.uiBtnSave.DisplayText = "Save";
-            this.uiBtnSave.DisplayTextBrush = System.Drawing.Color.White;
-            this.uiBtnSave.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.uiBtnSave.Image = global::taskt.Properties.Resources.action_bar_save;
-            this.uiBtnSave.IsMouseOver = false;
-            this.uiBtnSave.Location = new System.Drawing.Point(334, 3);
-            this.uiBtnSave.Name = "uiBtnSave";
-            this.uiBtnSave.Size = new System.Drawing.Size(52, 48);
-            this.uiBtnSave.TabIndex = 18;
-            this.uiBtnSave.TabStop = false;
-            this.uiBtnSave.Click += new System.EventHandler(this.uiBtnSave_Click);
-            // 
             // chkRunAfterCompile
             // 
             this.chkRunAfterCompile.AutoSize = true;
@@ -132,22 +100,6 @@
             this.lblHeader.TabIndex = 15;
             this.lblHeader.Text = "code builder";
             // 
-            // uiBtnCompile
-            // 
-            this.uiBtnCompile.BackColor = System.Drawing.Color.Transparent;
-            this.uiBtnCompile.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.uiBtnCompile.DisplayText = "Compile";
-            this.uiBtnCompile.DisplayTextBrush = System.Drawing.Color.White;
-            this.uiBtnCompile.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.uiBtnCompile.Image = global::taskt.Properties.Resources.action_bar_run;
-            this.uiBtnCompile.IsMouseOver = false;
-            this.uiBtnCompile.Location = new System.Drawing.Point(276, 3);
-            this.uiBtnCompile.Name = "uiBtnCompile";
-            this.uiBtnCompile.Size = new System.Drawing.Size(52, 48);
-            this.uiBtnCompile.TabIndex = 1;
-            this.uiBtnCompile.TabStop = false;
-            this.uiBtnCompile.Click += new System.EventHandler(this.utBtnCompile_Click);
-            // 
             // lstCompilerResults
             // 
             this.lstCompilerResults.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -169,6 +121,57 @@
             this.rtbCode.TabIndex = 4;
             this.rtbCode.Text = "";
             this.rtbCode.TextChanged += new System.EventHandler(this.rtbCode_TextChanged);
+            // 
+            // uiBtnSample
+            // 
+            this.uiBtnSample.BackColor = System.Drawing.Color.Transparent;
+            this.uiBtnSample.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.uiBtnSample.DisplayText = "Sample";
+            this.uiBtnSample.DisplayTextBrush = System.Drawing.Color.White;
+            this.uiBtnSample.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.uiBtnSample.Image = global::taskt.Properties.Resources.action_bar_new;
+            this.uiBtnSample.IsMouseOver = false;
+            this.uiBtnSample.Location = new System.Drawing.Point(218, 3);
+            this.uiBtnSample.Name = "uiBtnSample";
+            this.uiBtnSample.Size = new System.Drawing.Size(52, 48);
+            this.uiBtnSample.TabIndex = 19;
+            this.uiBtnSample.TabStop = false;
+            this.uiBtnSample.Text = "Sample";
+            this.uiBtnSample.Click += new System.EventHandler(this.uiBtnSample_Click);
+            // 
+            // uiBtnSave
+            // 
+            this.uiBtnSave.BackColor = System.Drawing.Color.Transparent;
+            this.uiBtnSave.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.uiBtnSave.DisplayText = "Save";
+            this.uiBtnSave.DisplayTextBrush = System.Drawing.Color.White;
+            this.uiBtnSave.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.uiBtnSave.Image = global::taskt.Properties.Resources.action_bar_save;
+            this.uiBtnSave.IsMouseOver = false;
+            this.uiBtnSave.Location = new System.Drawing.Point(334, 3);
+            this.uiBtnSave.Name = "uiBtnSave";
+            this.uiBtnSave.Size = new System.Drawing.Size(52, 48);
+            this.uiBtnSave.TabIndex = 18;
+            this.uiBtnSave.TabStop = false;
+            this.uiBtnSave.Text = "Save";
+            this.uiBtnSave.Click += new System.EventHandler(this.uiBtnSave_Click);
+            // 
+            // uiBtnCompile
+            // 
+            this.uiBtnCompile.BackColor = System.Drawing.Color.Transparent;
+            this.uiBtnCompile.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.uiBtnCompile.DisplayText = "Compile";
+            this.uiBtnCompile.DisplayTextBrush = System.Drawing.Color.White;
+            this.uiBtnCompile.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.uiBtnCompile.Image = global::taskt.Properties.Resources.action_bar_run;
+            this.uiBtnCompile.IsMouseOver = false;
+            this.uiBtnCompile.Location = new System.Drawing.Point(276, 3);
+            this.uiBtnCompile.Name = "uiBtnCompile";
+            this.uiBtnCompile.Size = new System.Drawing.Size(52, 48);
+            this.uiBtnCompile.TabIndex = 1;
+            this.uiBtnCompile.TabStop = false;
+            this.uiBtnCompile.Text = "Compile";
+            this.uiBtnCompile.Click += new System.EventHandler(this.utBtnCompile_Click);
             // 
             // frmCodeBuilder
             // 

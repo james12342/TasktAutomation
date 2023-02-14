@@ -2,19 +2,19 @@
 <Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Commands>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="1" PauseBeforeExeucution="false" v_Comment="Text Extraction Sample" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="e1dabc77-75f6-461b-98ac-69828e63e73b" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="1" PauseBeforeExeucution="false" v_Comment="Text Extraction Sample" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="2" PauseBeforeExeucution="false" v_Comment="Set Sample Variable Value" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="b9c496c5-f22f-45df-9d41-648345d6e641" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="2" PauseBeforeExeucution="false" v_Comment="Set Sample Variable Value" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="VariableCommand" CommandName="VariableCommand" IsCommented="false" SelectionName="Set Variable" DefaultPause="250" LineNumber="3" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vText" v_Input="This is an amazing sentence!" />
+      <ScriptCommand xsi:type="VariableCommand" CommandID="17272a1f-ec3a-4a14-82b7-cd2d2852db01" CommandName="VariableCommand" IsCommented="false" SelectionName="Set Variable" DefaultPause="250" LineNumber="3" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vText" v_Input="This is an amazing sentence!" v_ReplaceInputVariables="Yes" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="4" PauseBeforeExeucution="false" v_Comment="Extract everything after first &quot;is&quot; occurence" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="0a837ecf-5845-4640-8b61-9ded3d4ac274" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="4" PauseBeforeExeucution="false" v_Comment="Extract everything after first &quot;is&quot; occurence" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="TextExtractorCommand" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="5" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vText]" v_TextExtractionType="Extract All After Text" v_applyToVariableName="vExtractionResult">
+      <ScriptCommand xsi:type="TextExtractorCommand" CommandID="800d8db0-1af7-4df8-a766-b7252936fc96" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="5" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vText]" v_TextExtractionType="Extract All After Text" v_applyToVariableName="vExtractionResult">
         <v_TextExtractionTable>
           <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
             <xs:element name="TexPExPracPorPara20Table092018.092041">
@@ -49,16 +49,16 @@
       </ScriptCommand>
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="MessageBoxCommand" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="6" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vExtractionResult]" v_AutoCloseAfter="0" />
+      <ScriptCommand xsi:type="MessageBoxCommand" CommandID="3686cd58-e53a-433b-a240-c0ee94644586" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="6" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vExtractionResult]" v_AutoCloseAfter="0" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="7" PauseBeforeExeucution="false" v_Comment="Extract everything after skipping 1 &quot;is&quot; occurence" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="de951da7-c070-4f73-a210-d63ad7da5ac9" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="7" PauseBeforeExeucution="false" v_Comment="Extract everything after skipping 1 &quot;is&quot; occurence" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="VariableCommand" CommandName="VariableCommand" IsCommented="false" SelectionName="Set Variable" DefaultPause="250" LineNumber="8" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vSkipOccurences" v_Input="1" />
+      <ScriptCommand xsi:type="VariableCommand" CommandID="3aad4360-5cf2-46db-bffc-aeab23b7d53a" CommandName="VariableCommand" IsCommented="false" SelectionName="Set Variable" DefaultPause="250" LineNumber="8" PauseBeforeExeucution="false" CommandEnabled="true" v_userVariableName="vSkipOccurences" v_Input="1" v_ReplaceInputVariables="Yes" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="TextExtractorCommand" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vText]" v_TextExtractionType="Extract All After Text" v_applyToVariableName="vExtractionResult">
+      <ScriptCommand xsi:type="TextExtractorCommand" CommandID="cc727f28-44cc-4cfe-942b-cb26961d8703" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vText]" v_TextExtractionType="Extract All After Text" v_applyToVariableName="vExtractionResult">
         <v_TextExtractionTable>
           <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
             <xs:element name="TexPExPracPorPara20Table092018.092041">
@@ -93,13 +93,13 @@
       </ScriptCommand>
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="MessageBoxCommand" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="10" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vExtractionResult]" v_AutoCloseAfter="0" />
+      <ScriptCommand xsi:type="MessageBoxCommand" CommandID="8d39412e-4acb-4c9f-8352-ecc733b41564" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="10" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vExtractionResult]" v_AutoCloseAfter="0" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="11" PauseBeforeExeucution="false" v_Comment="Extract everything before the word 'sentence'" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="72d5f7d0-9560-4e9c-9441-3a8ed6bbf02f" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="11" PauseBeforeExeucution="false" v_Comment="Extract everything before the word 'sentence'" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="TextExtractorCommand" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="12" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vText]" v_TextExtractionType="Extract All Before Text" v_applyToVariableName="vExtractionResult">
+      <ScriptCommand xsi:type="TextExtractorCommand" CommandID="69111c77-b32f-4595-8a53-8e3d5fb087c2" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="12" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vText]" v_TextExtractionType="Extract All Before Text" v_applyToVariableName="vExtractionResult">
         <v_TextExtractionTable>
           <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
             <xs:element name="TexPExPracPorPara20Table092018.092041">
@@ -134,13 +134,13 @@
       </ScriptCommand>
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="MessageBoxCommand" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="13" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vExtractionResult]" v_AutoCloseAfter="0" />
+      <ScriptCommand xsi:type="MessageBoxCommand" CommandID="72426c38-9e22-4055-937a-8d60bc38a0b2" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="13" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vExtractionResult]" v_AutoCloseAfter="0" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="CommentCommand" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="14" PauseBeforeExeucution="false" v_Comment="Extract everything between 'This and '!'" CommandEnabled="true" />
+      <ScriptCommand xsi:type="CommentCommand" CommandID="773bb90d-7a05-45fe-b73a-8967d8d8c7b5" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="250" LineNumber="14" PauseBeforeExeucution="false" v_Comment="Extract everything between 'This and '!'" CommandEnabled="true" />
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="TextExtractorCommand" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="15" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vText]" v_TextExtractionType="Extract All Between Text" v_applyToVariableName="vExtractionResult">
+      <ScriptCommand xsi:type="TextExtractorCommand" CommandID="e3073aa3-e3d7-48ba-bddf-63c773a1e887" CommandName="TextExtractorCommand" IsCommented="false" SelectionName="Text Extraction" DefaultPause="250" LineNumber="15" PauseBeforeExeucution="false" CommandEnabled="true" v_InputValue="[vText]" v_TextExtractionType="Extract All Between Text" v_applyToVariableName="vExtractionResult">
         <v_TextExtractionTable>
           <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
             <xs:element name="TexPExPracPorPara20Table092018.092041">
@@ -179,7 +179,7 @@
       </ScriptCommand>
     </ScriptAction>
     <ScriptAction>
-      <ScriptCommand xsi:type="MessageBoxCommand" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="16" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vExtractionResult]" v_AutoCloseAfter="0" />
+      <ScriptCommand xsi:type="MessageBoxCommand" CommandID="84e241bb-75b6-4069-b31e-0e22f1282737" CommandName="MessageBoxCommand" IsCommented="false" SelectionName="Show Message" DefaultPause="250" LineNumber="16" PauseBeforeExeucution="false" CommandEnabled="true" v_Message="[vExtractionResult]" v_AutoCloseAfter="0" />
     </ScriptAction>
   </Commands>
   <Variables>

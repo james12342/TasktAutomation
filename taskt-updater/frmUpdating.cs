@@ -158,6 +158,11 @@ namespace taskt_updater
                 MessageBox.Show(e.Error.ToString());
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     public class Folders
     {

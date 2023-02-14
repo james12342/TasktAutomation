@@ -29,12 +29,14 @@ namespace taskt.UI.Forms.Supplemental
         public frmAbout()
         {
             InitializeComponent();
+            this.BackColor = Color.Red;
         }
 
         private void frmAbout_Load(object sender, EventArgs e)
         {
             lblAppVersion.Text = "version: " + new Version(System.Windows.Forms.Application.ProductVersion);
             lblBuildDate.Text = "build date: " + System.IO.File.GetLastWriteTime(System.Reflection.Assembly.GetExecutingAssembly().Location).ToString("MM.dd.yy hh.mm.ss");
+         
         }
 
         private void lblOneNote_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
