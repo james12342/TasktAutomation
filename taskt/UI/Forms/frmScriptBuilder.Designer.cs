@@ -56,6 +56,7 @@
             this.tsSearchBox = new System.Windows.Forms.ToolStripTextBox();
             this.tsSearchButton = new System.Windows.Forms.ToolStripMenuItem();
             this.tsSearchResult = new System.Windows.Forms.ToolStripMenuItem();
+            this.licenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.splitContainer1 = new taskt.UI.CustomControls.UISplitContainer();
             this.tvCommands = new taskt.UI.CustomControls.UITreeView();
@@ -122,7 +123,6 @@
             this.viewCodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editThisCodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyTray = new System.Windows.Forms.NotifyIcon(this.components);
-            this.licenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tlpControls.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -425,6 +425,14 @@
             this.tsSearchResult.Name = "tsSearchResult";
             this.tsSearchResult.Size = new System.Drawing.Size(12, 26);
             this.tsSearchResult.Visible = false;
+            // 
+            // licenseToolStripMenuItem
+            // 
+            this.licenseToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.licenseToolStripMenuItem.Image = global::JAuto.Properties.Resources.action_bar_restart;
+            this.licenseToolStripMenuItem.Name = "licenseToolStripMenuItem";
+            this.licenseToolStripMenuItem.Size = new System.Drawing.Size(74, 26);
+            this.licenseToolStripMenuItem.Text = "License";
             // 
             // panel1
             // 
@@ -1289,14 +1297,6 @@
             this.notifyTray.Visible = true;
             this.notifyTray.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyTray_MouseDoubleClick);
             // 
-            // licenseToolStripMenuItem
-            // 
-            this.licenseToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.licenseToolStripMenuItem.Image = global::JAuto.Properties.Resources.action_bar_restart;
-            this.licenseToolStripMenuItem.Name = "licenseToolStripMenuItem";
-            this.licenseToolStripMenuItem.Size = new System.Drawing.Size(74, 26);
-            this.licenseToolStripMenuItem.Text = "License";
-            // 
             // frmScriptBuilder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -1307,7 +1307,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmScriptBuilder";
-            this.Text = "taskt James Automation";
+            this.Text = "J Automation";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmScriptBuilder_FormClosing);
             this.Load += new System.EventHandler(this.frmScriptBuilder_Load);
             this.Shown += new System.EventHandler(this.frmScriptBuilder_Shown);

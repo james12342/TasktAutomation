@@ -102,7 +102,7 @@ namespace taskt.UI.Forms
             //add hooks for hot key cancellation
             GlobalHook.HookStopped += new EventHandler(OnHookStopped);
             GlobalHook.StartEngineCancellationHook(engineSettings.CancellationKey);
-
+            lblMainLogo.Text = "hhhhhhh";
 
 
         }
@@ -125,6 +125,7 @@ namespace taskt.UI.Forms
             {
                 lstSteppingCommands.Show();
                 lblMainLogo.Show();
+                lblMainLogo.Text = "jjjjjjjjjj";
                 pbBotIcon.Hide();
                 lblAction.Hide();
             }
@@ -134,6 +135,7 @@ namespace taskt.UI.Forms
                 lblMainLogo.Hide();
                 pbBotIcon.Show();
                 lblAction.Show();
+                lblMainLogo.Text = "jjjjjjjjjj";
             }
 
 
@@ -280,7 +282,7 @@ namespace taskt.UI.Forms
                 lblAction.Text = text + "..";
                 lstSteppingCommands.Items.Add(DateTime.Now.ToString("MM/dd/yy hh:mm:ss.fff") + " | " + text + "..");
                 lstSteppingCommands.SelectedIndex = lstSteppingCommands.Items.Count - 1;
-
+                lblMainLogo.Text = "jjjjjjjjjj";
 
             }
 

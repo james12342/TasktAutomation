@@ -2396,6 +2396,7 @@ namespace taskt.UI.Forms
             UI.Forms.frmScriptEngine newEngine = new UI.Forms.frmScriptEngine(ScriptFilePath, this);
             newEngine.callBackForm = this;
             newEngine.Show();
+            
         }
 
         private void saveAndRunToolStripMenuItem_Clicked(object sender, EventArgs e)
