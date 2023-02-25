@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using taskt.UI.CustomControls;
 using taskt.UI.Forms;
+using Tesseract;
 
 namespace taskt.Core.Automation.Commands
 {
@@ -41,21 +43,56 @@ namespace taskt.Core.Automation.Commands
             this.CustomRendering = true;
         }
 
+
+      
+
         public override void RunCommand(object sender)
         {
             var engine = (Core.Automation.Engine.AutomationEngineInstance)sender;
-
-            var ocrEngine = new OneNoteOCRDll.OneNoteOCR();
-            var arr = ocrEngine.OcrTexts(v_FilePath.ConvertToUserVariable(engine)).ToArray();
-
-            string endResult = "";
-            foreach (var text in arr)
+            var text = "";
+            //var ocrEngine = new OneNoteOCRDll.OneNoteOCR();
+            var testImagePath = "";
+            testImagePath=v_FilePath.ConvertToUserVariable(sender);
+            try
             {
-                endResult += text.Text;
+                //using (var ocrEngine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default))
+                using (var ocrEngine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default))
+                {
+                    using (var img = Pix.LoadFromFile(testImagePath))
+                    {
+                        using (var page = ocrEngine.Process(img))
+                        {
+                             text = page.GetText();
+                            //text.StoreInUserVariable(sender, v_userVariableName);
+                           
+                        }
+                    }
+                }
             }
+            catch (Exception e)
+            {
+                Trace.TraceError(e.ToString());
+                Console.WriteLine("Unexpected Error: " + e.Message);
+                Console.WriteLine("Details: ");
+                Console.WriteLine(e.ToString());
+            }
+
+           // var arr = (v_FilePath.ConvertToUserVariable(engine)).ToArray();
+
+
+            string endResult = text;
+            //foreach (var text in arr)
+            //{
+            //    endResult += text.Text;
+            //}
 
             //apply to user variable
             endResult.StoreInUserVariable(sender, v_userVariableName);
+
+          
+            
+           
+
         }
         public override List<Control> Render(frmCommandEditor editor)
         {

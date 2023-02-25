@@ -107,6 +107,7 @@ namespace taskt.Core.Automation.Commands
     [XmlInclude(typeof(CheckFileExistsCommand))]
     [XmlInclude(typeof(DeleteFileCommand))]
     [XmlInclude(typeof(ExtractFileCommand))]
+    [XmlInclude(typeof(FTPDownloadFileCommand))]
     [XmlInclude(typeof(GetFilesCommand))]
     [XmlInclude(typeof(MoveFileCommand))]
     [XmlInclude(typeof(RenameFileCommand))]
@@ -256,7 +257,7 @@ namespace taskt.Core.Automation.Commands
     [XmlInclude(typeof(WordReplaceTextCommand))]
     [XmlInclude(typeof(WordSaveCommand))]
     [XmlInclude(typeof(WordSaveAsCommand))]
-
+    [XmlInclude(typeof(WordSaveAsCommand1))]
 
     // ?
     [XmlInclude(typeof(ThickAppClickItemCommand))]

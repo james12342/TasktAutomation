@@ -852,7 +852,7 @@ namespace taskt.UI.CustomControls
                         var convertedImage = Core.Common.ImageToBase64(imageCaptureForm.userSelectedBitmap);
                         var convertedLength = convertedImage.Length;
                         targetPictureBox.EncodedImage = convertedImage;
-                        //imageCaptureForm.Show();
+                        imageCaptureForm.Show();
                     }
                 }
             }
@@ -871,7 +871,8 @@ namespace taskt.UI.CustomControls
             //get input control
             CustomControls.CommandItemControl inputBox = (CustomControls.CommandItemControl)sender;
             UIPictureBox targetPictureBox = (UIPictureBox)inputBox.Tag;
-            string imageSource = targetPictureBox.EncodedImage;
+            //string imageSource = targetPictureBox.EncodedImage;
+            string imageSource = "C:\\Users\\19135\\OneDrive\\Desktop\\image.jpg";
 
             if (string.IsNullOrEmpty(imageSource))
             {

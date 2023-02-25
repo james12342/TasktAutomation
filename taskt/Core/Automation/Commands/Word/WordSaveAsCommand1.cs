@@ -13,7 +13,7 @@ namespace taskt.Core.Automation.Commands
     [Attributes.ClassAttributes.Description("This command allows you to save an Word document.")]
     [Attributes.ClassAttributes.UsesDescription("Use this command when you want to save a document to a file.")]
     [Attributes.ClassAttributes.ImplementationDescription("This command implements Word Interop to achieve automation.")]
-    public class WordSaveAsCommand : ScriptCommand
+    public class WordSaveAsCommand1 : ScriptCommand
     {
         [XmlAttribute]
         [Attributes.PropertyAttributes.PropertyDescription("Please Enter the instance name")]
@@ -32,10 +32,10 @@ namespace taskt.Core.Automation.Commands
         [Attributes.PropertyAttributes.Remarks("")]
         public string v_FileName { get; set; }
 
-        public WordSaveAsCommand()
+        public WordSaveAsCommand1()
         {
-            this.CommandName = "WordSaveAsCommand";
-            this.SelectionName = "Save Document As";
+            this.CommandName = "WordSaveAsCommand1";
+            this.SelectionName = "Save Document As111";
             this.CommandEnabled = true;
             this.CustomRendering = true;
         }
@@ -60,12 +60,12 @@ namespace taskt.Core.Automation.Commands
             {
                 wordInstance.ActiveDocument.SaveAs(fileName);
                 wordInstance.DisplayAlerts = WdAlertLevel.wdAlertsAll;
-            } 
-            catch (Exception e2) 
-            {
-               
             }
-           
+            catch (Exception e2)
+            {
+
+            }
+
 
         }
         public override List<Control> Render(frmCommandEditor editor)
